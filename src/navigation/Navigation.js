@@ -9,7 +9,8 @@ import Service from "../pages/Service/Service";
 import Scrolltotop from "../pages/ScrollToTop/Scrolltotop";
 // header
 import Header from "../components/Header/Header";
-
+// Footer
+import Footer from "../components/Footer/Footer";
 const Navigation = () => {
   return (
     <BrowserRouter>
@@ -22,6 +23,7 @@ const Navigation = () => {
           <Route path="/service" element={<Service />} />
         </Routes>
       </Scrolltotop>
+      {/* <Footer /> */}
     </BrowserRouter>
   );
 };

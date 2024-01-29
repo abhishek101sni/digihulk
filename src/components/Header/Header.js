@@ -257,15 +257,23 @@ function Header(props) {
         {/* <CssBaseline /> */}
         <AppBar
           component="nav"
+          // sx={{
+          //   backgroundColor: {
+          //     xs: "#fff",
+          //     sm: "#fff",
+          //     md: "#fff",
+          //     lg: "#fff",
+          //   },
+          //   height: "75px",
+          //   elevation:"0px"
+          // }}
           sx={{
             backgroundColor: {
-              xs: "#fff",
-              sm: "#fff",
-              md: "#fff",
-              lg: "#fff",
+              xs: "black",
+              sm: "black",
+              md: "rgb(8,8,8, 0.6)",
+              lg: "rgb(8,8,8, 0.6)",
             },
-            height: "75px",
-            elevation:"0px"
           }}
         >
           <Toolbar
@@ -345,7 +353,7 @@ function Header(props) {
                   <Link to={"/"} style={{ textDecoration: "none" }}>
                     <Typography
                       sx={{
-                        color: "#000",
+                        color: "#fff",
                         fontSize: "14px",
                         fontWeight: "600",
                         fontFamily: "Poppins, sans-serif",
@@ -360,7 +368,7 @@ function Header(props) {
                     <Link to={"/about-us/"} style={{ textDecoration: "none" }}>
                       <Typography
                         sx={{
-                          color: "#000",
+                          color: "#fff",
                           fontSize: "14px",
                           fontWeight: "600",
                           fontFamily: "Poppins, sans-serif",
@@ -385,7 +393,7 @@ function Header(props) {
                           aria-controls="simple-menu"
                           aria-haspopup="true"
                           sx={{
-                            color: "#000",
+                            color: "#fff",
                             fontSize: "14px",
                             fontWeight: "600",
                             fontFamily: "Poppins, sans-serif",
@@ -602,7 +610,7 @@ function Header(props) {
                     >
                       <Typography
                         sx={{
-                          color: "#000",
+                          color: "#fff",
                           fontSize: "14px",
                           fontWeight: "600",
                           fontFamily: "Poppins, sans-serif",
