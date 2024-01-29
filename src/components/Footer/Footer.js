@@ -208,7 +208,7 @@ const Footer = () => {
                 fontFamily: "Poppins, sans-serif",
               }}
             >
-              Copyright digihulks.com 2024
+              Copyright digihulks.com 2023
             </Typography>
           </Box>
         </Grid>
