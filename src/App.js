@@ -1,10 +1,18 @@
 import React from 'react'
 
+// MUI
+import { Box } from "@mui/material";
+
+// PAGES
+import Navigation from './navigation/Navigation';
+import Footer from "./components/Footer/Footer"
+
 const App = () => {
   return (
-    <div>
-      hello
-    </div>
+    <Box>
+      <Navigation/>
+      {/* <Footer/>   */}
+    </Box>
   )
 }
 
