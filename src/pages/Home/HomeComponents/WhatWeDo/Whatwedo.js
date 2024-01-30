@@ -14,7 +14,7 @@ const Whatwedo = () => {
         container
         sx={
           {
-            // backgroundColor: "#F5F5F5",
+            backgroundColor: "#F0F0F0",
           }
         }
       >
@@ -24,7 +24,11 @@ const Whatwedo = () => {
           sm={12}
           md={0.7}
           lg={0.7}
-          // sx={{ backgroundColor: "purple" }}
+          sx={
+          {
+            backgroundColor: "#F0F0F0",
+          }
+        }
         ></Grid>
         <Grid
           item
@@ -32,7 +36,11 @@ const Whatwedo = () => {
           sm={12}
           md={10.6}
           lg={10.6}
-          // sx={{ backgroundColor: "pink" }}
+          sx={
+          {
+            backgroundColor: "#F0F0F0",
+          }
+        }
         >
           <Box
             sx={{
@@ -86,7 +94,11 @@ const Whatwedo = () => {
           sm={12}
           md={0.7}
           lg={0.7}
-          //   sx={{ backgroundColor: "red" }}
+          sx={
+          {
+            backgroundColor: "#F0F0F0",
+          }
+        }
         ></Grid>
         <Grid
           item
@@ -94,7 +106,11 @@ const Whatwedo = () => {
           sm={12}
           md={10.6}
           lg={10.6}
-          //   sx={{ backgroundColor: "blue" }}
+          sx={
+          {
+            backgroundColor: "#F0F0F0",
+          }
+        }
         >
           <Grid container>
             <Grid
@@ -103,7 +119,11 @@ const Whatwedo = () => {
               sm={12}
               md={4}
               lg={4}
-              //   sx={{ backgroundColor: "orange" }}
+              sx={
+          {
+            backgroundColor: "#F0F0F0",
+          }
+        }
             >
               <Box
                 sx={{
@@ -267,7 +287,11 @@ const Whatwedo = () => {
               sm={12}
               md={4}
               lg={4}
-              //   sx={{ backgroundColor: "cyan" }}
+              sx={
+          {
+            backgroundColor: "#F0F0F0",
+          }
+        }
             >
               <Box
                 sx={{
@@ -616,7 +640,11 @@ const Whatwedo = () => {
           sm={12}
           md={0.7}
           lg={0.7}
-          //   sx={{ backgroundColor: "green" }}
+          sx={
+          {
+            backgroundColor: "#F0F0F0",
+          }
+        }
         ></Grid>
       </Grid>
     </>
