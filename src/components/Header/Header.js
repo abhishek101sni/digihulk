@@ -109,8 +109,8 @@ function Header(props) {
             component="img"
             sx={{
               width: {
-                xs: "60px",
-                sm: "60px",
+                xs: "60%",
+                sm: "60%",
                 md: "100px",
                 lg: "100px",
               },
@@ -121,7 +121,7 @@ function Header(props) {
                 lg: "50px",
               },
               // marginLeft: { xs: "15px", sm: "15px", md: "43px", lg: "43px" },
-              marginTop: { xs: "5px", sm: "5px", md: "15px", lg: "15px" },
+              marginTop: { xs: "15px", sm: "15px", md: "15px", lg: "15px" },
             }}
             alt="DigiHulkHeaderLogo"
             src={DigiHulkHeaderLogo}
@@ -269,10 +269,10 @@ function Header(props) {
           // }}
           sx={{
             backgroundColor: {
-              xs: "black",
-              sm: "black",
-              md: "rgb(8,8,8, 0.6)",
-              lg: "rgb(8,8,8, 0.6)",
+              xs: "#fff",
+              sm: "#fff",
+              md: "#fff",
+              lg: "#fff",
             },
           }}
         >
@@ -284,7 +284,7 @@ function Header(props) {
             }}
           >
             <IconButton
-              color="inherit"
+              color="#000"
               aria-label="open drawer"
               edge="start"
               onClick={handleDrawerToggle}
@@ -353,7 +353,7 @@ function Header(props) {
                   <Link to={"/"} style={{ textDecoration: "none" }}>
                     <Typography
                       sx={{
-                        color: "#fff",
+                        color: "#000",
                         fontSize: "14px",
                         fontWeight: "600",
                         fontFamily: "Poppins, sans-serif",
@@ -368,7 +368,7 @@ function Header(props) {
                     <Link to={"/about-us/"} style={{ textDecoration: "none" }}>
                       <Typography
                         sx={{
-                          color: "#fff",
+                          color: "#000",
                           fontSize: "14px",
                           fontWeight: "600",
                           fontFamily: "Poppins, sans-serif",
@@ -380,10 +380,12 @@ function Header(props) {
                   </Box>
 
                   {/* Dropdown */}
-                  <Box sx={{ 
-                    paddingLeft: "30px",
-                  //  marginTop: "6px" 
-                   }}>
+                  <Box
+                    sx={{
+                      paddingLeft: "30px",
+                      //  marginTop: "6px"
+                    }}
+                  >
                     <Box
                       sx={{ display: "flex", flexDirection: "row" }}
                       onClick={() => navigate("/our-service")}
@@ -393,13 +395,12 @@ function Header(props) {
                           aria-controls="simple-menu"
                           aria-haspopup="true"
                           sx={{
-                            color: "#fff",
+                            color: "#000",
                             fontSize: "14px",
                             fontWeight: "600",
                             fontFamily: "Poppins, sans-serif",
                           }}
                           onMouseOver={handleOpenMenu}
-                          
                         >
                           OUR SERVICES
                         </Typography>
@@ -610,7 +611,7 @@ function Header(props) {
                     >
                       <Typography
                         sx={{
-                          color: "#fff",
+                          color: "#000",
                           fontSize: "14px",
                           fontWeight: "600",
                           fontFamily: "Poppins, sans-serif",

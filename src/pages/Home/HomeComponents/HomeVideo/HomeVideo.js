@@ -113,7 +113,7 @@ const HomeVideo = () => {
                             color: "#fff",
                           }}
                         >
-                          DigiHulks
+                          {/* DigiHulks */}
                         </Typography>
                       </Box>
                       {/* for mobile */}
@@ -141,7 +141,7 @@ const HomeVideo = () => {
                             alignItems: "center",
                           }}
                         >
-                          DigiHulks
+                          {/* DigiHulks */}
                         </Typography>
                         {/* <Typography
                           sx={{
