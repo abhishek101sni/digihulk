@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <Box sx={{ xs: "", sm: "", md: "0px", lg: "0px" }}>
       <HomeVideo/>
-      <Homecards />
+      {/* <Homecards /> */}
       <Ourexclusiveservice/>
       {/* Footer */}
       <Footer/>

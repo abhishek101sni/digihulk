@@ -80,8 +80,8 @@ const HomeVideo = () => {
                     <Box
                       sx={{
                         marginTop: {
-                          xs: "50px",
-                          sm: "50px",
+                          xs: "80px",
+                          sm: "80px",
                           md: "200px",
                           lg: "200px",
                         },
@@ -108,7 +108,7 @@ const HomeVideo = () => {
                               md: "600",
                               lg: "600",
                             },
-                            fontFamily: "Poppins, sans-serif",
+                            fontFamily: "Raleway, sans-serif",
                             // color: "#253177",
                             color: "#fff",
                           }}
@@ -122,8 +122,8 @@ const HomeVideo = () => {
                           sx={{
                             display: "flex",
                             fontSize: {
-                              xs: "33px",
-                              sm: "33px",
+                              xs: "60px",
+                              sm: "60px",
                               md: "0px",
                               lg: "0px",
                             },
@@ -135,37 +135,15 @@ const HomeVideo = () => {
                             },
                             paddingLeft: "10px",
                             paddingRight: "10px",
-                            fontFamily: "Poppins, sans-serif",
+                            fontFamily: "Raleway, sans-serif",
                             color: "#fff",
                             justifyContent: "center",
                             alignItems: "center",
                           }}
                         >
-                          {/* DigiHulks */}
+                          DigiHulks
                         </Typography>
-                        {/* <Typography
-                          sx={{
-                            display: "flex",
-                            fontSize: {
-                              xs: "50px",
-                              sm: "50px",
-                              md: "0px",
-                              lg: "0px",
-                            },
-                            fontWeight: {
-                              xs: "500",
-                              sm: "500",
-                              md: "0",
-                              lg: "0",
-                            },
-                            fontFamily: "Poppins, sans-serif",
-                            color: "#fff",
-                            justifyContent: "center",
-                            alignItems: "center",
-                          }}
-                        >
-                          Advertising
-                        </Typography> */}
+                       
                       </Box>
 
                       {/* TEXT 2 */}
@@ -206,7 +184,7 @@ const HomeVideo = () => {
                               md: "500",
                               lg: "500",
                             },
-                            fontFamily: "Poppins, sans-serif",
+                            fontFamily: "Raleway, sans-serif",
                             color: "#2AAA8A",
                             marginTop: "-5px",
                             wordSpacing: "8px",
