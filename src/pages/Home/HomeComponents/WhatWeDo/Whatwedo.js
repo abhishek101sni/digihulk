@@ -238,8 +238,14 @@ const Whatwedo = () => {
                           fontWeight: "600",
                           fontFamily: "Raleway, sans-serif",
                           //   textAlign: "center",
-                          color: "#000",
+                          color: "rgba(122,122,122)",
                           textAlign: "justify",
+                        //   wordSpacing:{
+                        //     xs: "-2px",
+                        //     sm: "1px",
+                        //     md: "14px",
+                        //     lg: "14px",
+                        //   }
                         }}
                       >
                         We at Socio Labs help you fulfill your digital dream!
@@ -411,7 +417,7 @@ const Whatwedo = () => {
                           fontWeight: "600",
                           fontFamily: "Raleway, sans-serif",
                           //   textAlign: "center",
-                          color: "#000",
+                          color: "rgba(122,122,122)",
                           textAlign: "justify",
                         }}
                       >
@@ -585,7 +591,7 @@ const Whatwedo = () => {
                           fontWeight: "600",
                           fontFamily: "Raleway, sans-serif",
                           //   textAlign: "center",
-                          color: "#000",
+                          color: "rgba(122,122,122)",
                           textAlign: "justify",
                         }}
                       >

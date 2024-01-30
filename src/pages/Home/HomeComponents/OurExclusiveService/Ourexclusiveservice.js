@@ -112,6 +112,12 @@ const Ourexclusiveservice = () => {
                     md: "center",
                     lg: "center",
                   },
+                  marginTop:{
+                    xs: "0px",
+                    sm: "0px",
+                    md: "25px",
+                    lg: "25px",
+                  }
                 }}
               >
                 Unbeatable Brand like yours should never settle for the rest
@@ -131,6 +137,12 @@ const Ourexclusiveservice = () => {
                     fontFamily: "Poppins, sans-serif",
                     // fontFamily: "Raleway, sans-serif",
                     textAlign: "center",
+                    marginTop:{
+                    xs: "15px",
+                    sm: "15px",
+                    md: "0px",
+                    lg: "0px",
+                  }
                   }}
                 >
                   Unbeatable Brand like yours should never settle for the rest
