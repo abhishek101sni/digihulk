@@ -115,8 +115,8 @@ function Header(props) {
                 lg: "100px",
               },
               height: {
-                xs: "40px",
-                sm: "40px",
+                xs: "50%",
+                sm: "50%",
                 md: "50px",
                 lg: "50px",
               },
@@ -129,7 +129,7 @@ function Header(props) {
         </Box>
       </Link>
 
-      <Box sx={{ marginTop: "30px" }}>
+      <Box sx={{ marginTop: "10px" }}>
         {/* Home */}
         <Box
           sx={{
