@@ -56,8 +56,8 @@ const Ourexclusiveservice = () => {
               <Typography
                 sx={{
                   fontSize: {
-                    xs: "21px",
-                    sm: "21px",
+                    xs: "35px",
+                    sm: "35px",
                     md: "36px",
                     lg: "36px",
                   },
@@ -66,6 +66,12 @@ const Ourexclusiveservice = () => {
                   fontFamily: "Raleway, sans-serif",
                   textAlign: "center",
                   color: "#000",
+                  lineHeight:{
+                    xs:"33px",
+                    sm:"33px",
+                    md:"0px",
+                    lg:"0px"
+                  }
                 }}
               >
                 Our Exclusive Services
@@ -116,8 +122,8 @@ const Ourexclusiveservice = () => {
                   sx={{
                     color: "#000",
                     fontSize: {
-                      xs: "12px",
-                      sm: "12px",
+                      xs: "15px",
+                      sm: "15px",
                       md: "0px",
                       lg: "0px",
                     },
