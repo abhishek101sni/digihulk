@@ -16,7 +16,7 @@ const HomeVideo = () => {
     <>
       <Box
         sx={{
-          marginTop: { xs: "51px", sm: "51px", md: "0px", lg: "0px" },
+          marginTop: { xs: "51px", sm: "51px", md: "80px", lg: "80px" },
         }}
       >
         {/* VIDEO */}
@@ -42,7 +42,7 @@ const HomeVideo = () => {
                 muted
                 style={{
                   width: "100%",
-                  height: "100%",
+                  height: "90%",
                   objectFit: "cover",
                 }}
               />
@@ -113,7 +113,7 @@ const HomeVideo = () => {
                             color: "#fff",
                           }}
                         >
-                          {/* DigiHulks */}
+                          DigiHulks
                         </Typography>
                       </Box>
                       {/* for mobile */}

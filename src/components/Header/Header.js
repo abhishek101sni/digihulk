@@ -292,7 +292,12 @@ function Header(props) {
             >
               <MenuIcon />
             </IconButton>
-
+{/* 
+<Grid container>
+  <Grid item xs={12} sm={12} md={0.7} lg={0.7} sx={{backgroundColor:"red"}}></Grid>
+  <Grid item xs={12} sm={12} md={10.6} lg={10.6} sx={{backgroundColor:"green"}}>h</Grid>
+  <Grid item xs={12} sm={12} md={0.7} lg={0.7}sx={{backgroundColor:"yellow"}}></Grid>
+</Grid> */}
             <Box
               sx={{
                 display: "flex",
@@ -307,14 +312,14 @@ function Header(props) {
                     width: {
                       xs: "80%",
                       sm: "80%",
-                      md: "140px",
-                      lg: "140px",
+                      md: "170px",
+                      lg: "170px",
                     },
                     height: {
                       xs: "40px",
                       sm: "40px",
-                      md: "100%",
-                      lg: "100%",
+                      md: "70px",
+                      lg: "70px",
                     },
                     // marginLeft: {
                     //   xs: "100px",
@@ -354,13 +359,18 @@ function Header(props) {
                   <Link to={"/"} style={{ textDecoration: "none" }}>
                     <Typography
                       sx={{
-                        color: "#000",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                        fontFamily: "Poppins, sans-serif",
+                        color: "rgba(122,122,122)",
+                        fontSize: "18px",
+                        fontWeight: "500",
+                        // fontFamily: "Poppins, sans-serif",
+                        fontFamily: "Raleway, sans-serif",
+                        "&:hover": {
+                                  color: "#2AAA8A",
+                                  cursor: "pointer",
+                                },
                       }}
                     >
-                      HOME
+                      Home
                     </Typography>
                   </Link>
 
@@ -369,13 +379,18 @@ function Header(props) {
                     <Link to={"/about-us/"} style={{ textDecoration: "none" }}>
                       <Typography
                         sx={{
-                          color: "#000",
-                          fontSize: "14px",
-                          fontWeight: "600",
-                          fontFamily: "Poppins, sans-serif",
+                          color: "rgba(122,122,122)",
+                          fontSize: "18px",
+                          fontWeight: "500",
+                          // fontFamily: "Poppins, sans-serif",
+                          fontFamily: "Raleway, sans-serif",
+                          "&:hover": {
+                                  color: "#2AAA8A",
+                                  cursor: "pointer",
+                                },
                         }}
                       >
-                        ABOUT US
+                        About us
                       </Typography>
                     </Link>
                   </Box>
@@ -396,14 +411,19 @@ function Header(props) {
                           aria-controls="simple-menu"
                           aria-haspopup="true"
                           sx={{
-                            color: "#000",
-                            fontSize: "14px",
-                            fontWeight: "600",
-                            fontFamily: "Poppins, sans-serif",
+                            color: "rgba(122,122,122)",
+                            fontSize: "18px",
+                            fontWeight: "500",
+                            // fontFamily: "Poppins, sans-serif", 
+                            fontFamily: "Raleway, sans-serif",
+                            "&:hover": {
+                                  color: "#2AAA8A",
+                                  cursor: "pointer",
+                                },
                           }}
                           onMouseOver={handleOpenMenu}
                         >
-                          OUR SERVICES
+                          Our Services
                         </Typography>
                       </Box>
                       <Box>
@@ -605,20 +625,25 @@ function Header(props) {
                   {/* Dropdown  ends*/}
 
                   {/* CONTACT US */}
-                  <Box sx={{ paddingLeft: "30px" }}>
+                  <Box sx={{ paddingLeft: "15px" }}>
                     <Link
                       to={"/contact-us/"}
                       style={{ textDecoration: "none" }}
                     >
                       <Typography
                         sx={{
-                          color: "#000",
-                          fontSize: "14px",
-                          fontWeight: "600",
-                          fontFamily: "Poppins, sans-serif",
+                          color: "rgba(122,122,122)",
+                          fontSize: "18px",
+                          fontWeight: "500",
+                          // fontFamily: "Poppins, sans-serif",
+                          fontFamily: "Raleway, sans-serif",
+                          "&:hover": {
+                                  color: "#2AAA8A",
+                                  cursor: "pointer",
+                                },
                         }}
                       >
-                        CONTACT US
+                        Contact us
                       </Typography>
                     </Link>
                   </Box>
