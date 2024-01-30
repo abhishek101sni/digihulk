@@ -305,8 +305,8 @@ function Header(props) {
                   component="img"
                   sx={{
                     width: {
-                      xs: "60px",
-                      sm: "60px",
+                      xs: "80%",
+                      sm: "80%",
                       md: "140px",
                       lg: "140px",
                     },
@@ -330,6 +330,7 @@ function Header(props) {
                       md: "6px",
                       lg: "6px",
                     },
+
                   }}
                   alt="DigiHulkMainHeaderLogo"
                   src={DigiHulkHeaderLogo}
