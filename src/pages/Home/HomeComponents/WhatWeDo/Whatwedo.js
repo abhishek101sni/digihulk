@@ -170,8 +170,8 @@ const Whatwedo = () => {
                       src={wwd1}
                       sx={{
                         width: {
-                          xs: "90%",
-                          sm: "90%",
+                          xs: "95%",
+                          sm: "95%",
                           md: "80%",
                           lg: "80%",
                         },
@@ -353,8 +353,8 @@ const Whatwedo = () => {
                       src={wwd2}
                       sx={{
                         width: {
-                          xs: "90%",
-                          sm: "90%",
+                          xs: "95%",
+                          sm: "95%",
                           md: "80%",
                           lg: "80%",
                         },
@@ -526,8 +526,8 @@ const Whatwedo = () => {
                       src={wwd3}
                       sx={{
                         width: {
-                          xs: "90%",
-                          sm: "90%",
+                          xs: "95%",
+                          sm: "95%",
                           md: "80%",
                           lg: "80%",
                         },
