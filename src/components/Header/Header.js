@@ -200,7 +200,7 @@ function Header(props) {
             />
           </Box>
           <Box>
-            <Link to={"/services"} style={{ textDecoration: "none" }}>
+            <Link to={"/our-services/"} style={{ textDecoration: "none" }}>
               <Typography
                 sx={{
                   color: "#000",
@@ -212,7 +212,7 @@ function Header(props) {
                   paddingBottom: "5px",
                 }}
               >
-                SERVICES
+                OUR SERVICES
               </Typography>
             </Link>
           </Box>
@@ -404,7 +404,7 @@ function Header(props) {
                   >
                     <Box
                       sx={{ display: "flex", flexDirection: "row" }}
-                      onClick={() => navigate("/our-service")}
+                      onClick={() => navigate("/our-services/")}
                     >
                       <Box>
                         <Typography

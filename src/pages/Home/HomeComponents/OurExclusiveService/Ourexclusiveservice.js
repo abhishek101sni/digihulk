@@ -6,23 +6,31 @@ import "./Ourexclusiveservice.css";
 // MUI
 import { Box, Typography, Grid } from "@mui/material";
 
+// REACT-ROUTER-DOM
+import { useNavigate } from "react-router-dom";
+
 // IMAGES
 import SocailMediaMarketing from "../../../../assets/images/OurServices/socialMediaMarketing.png";
 import SocailMediaManagement from "../../../../assets/images/OurServices/socialMediaManagement.png";
-import MediaWebDev from "../../../../assets/images/OurServices/website_developement.png";
+import WebDev from "../../../../assets/images/OurServices/website_developement.png";
 import remarketing from "../../../../assets/images/OurServices/remarketing.png";
 import seo from "../../../../assets/images/OurServices/seo.png";
 import ppc from "../../../../assets/images/OurServices/ppc.png";
+import mobileDev from "../../../../assets/images/OurServices/Mobiledevelopment.png";
+import content from "../../../../assets/images/OurServices/content.png";
 
 const Ourexclusiveservice = () => {
+  const navigate = useNavigate();
   return (
     <Box>
       {/* TITLE */}
       <Grid
         container
-        sx={{
-          // backgroundColor: "#F5F5F5",
-        }}
+        sx={
+          {
+            // backgroundColor: "#F5F5F5",
+          }
+        }
       >
         <Grid
           item
@@ -66,12 +74,12 @@ const Ourexclusiveservice = () => {
                   fontFamily: "Raleway, sans-serif",
                   textAlign: "center",
                   color: "#000",
-                  lineHeight:{
-                    xs:"33px",
-                    sm:"33px",
-                    md:"0px",
-                    lg:"0px"
-                  }
+                  lineHeight: {
+                    xs: "33px",
+                    sm: "33px",
+                    md: "0px",
+                    lg: "0px",
+                  },
                 }}
               >
                 Our Exclusive Services
@@ -112,12 +120,12 @@ const Ourexclusiveservice = () => {
                     md: "center",
                     lg: "center",
                   },
-                  marginTop:{
+                  marginTop: {
                     xs: "0px",
                     sm: "0px",
                     md: "25px",
                     lg: "25px",
-                  }
+                  },
                 }}
               >
                 Unbeatable Brand like yours should never settle for the rest
@@ -137,12 +145,12 @@ const Ourexclusiveservice = () => {
                     fontFamily: "Poppins, sans-serif",
                     // fontFamily: "Raleway, sans-serif",
                     textAlign: "center",
-                    marginTop:{
-                    xs: "15px",
-                    sm: "15px",
-                    md: "0px",
-                    lg: "0px",
-                  }
+                    marginTop: {
+                      xs: "15px",
+                      sm: "15px",
+                      md: "0px",
+                      lg: "0px",
+                    },
                   }}
                 >
                   Unbeatable Brand like yours should never settle for the rest
@@ -184,6 +192,9 @@ const Ourexclusiveservice = () => {
                   justifyContent: "center",
                   alignItems: "center",
                 }}
+                onClick={() => {
+                  navigate("/website-development/");
+                }}
               >
                 <Box
                   sx={{
@@ -214,7 +225,7 @@ const Ourexclusiveservice = () => {
                         lg: "30px",
                       },
                     }}
-                    src={SocailMediaMarketing}
+                    src={content}
                   />
                   {/* Heading */}
                   <Box
@@ -246,7 +257,8 @@ const Ourexclusiveservice = () => {
                         textAlign: "center",
                       }}
                     >
-                      Social Media
+                      Content
+                      {/* Social Media */}
                       <br />
                       Marketing
                     </Typography>
@@ -345,7 +357,7 @@ const Ourexclusiveservice = () => {
                         lg: "30px",
                       },
                     }}
-                    src={remarketing}
+                    src={mobileDev}
                   />
                   {/* Heading */}
                   <Box
@@ -377,9 +389,11 @@ const Ourexclusiveservice = () => {
                         textAlign: "center",
                       }}
                     >
-                      Social Media
-                      <br />
-                      Remarketing
+                      Mobile
+                      <br /> Development
+                      {/* Social Media */}
+                      {/* <br /> */}
+                      {/* Remarketing */}
                     </Typography>
                   </Box>
                   {/* Details */}
@@ -618,7 +632,7 @@ const Ourexclusiveservice = () => {
                         lg: "30px",
                       },
                     }}
-                    src={MediaWebDev}
+                    src={WebDev}
                   />
                   {/* Heading */}
                   <Box
@@ -910,7 +924,6 @@ const Ourexclusiveservice = () => {
                       }}
                     >
                       PPC Adds
-                      
                     </Typography>
                   </Box>
                   {/* Details */}
@@ -949,7 +962,11 @@ const Ourexclusiveservice = () => {
                         textAlign: "center",
                       }}
                     >
-                    The best digital marketing company in Delhi will manage your Pay per Click campaigns, helping you reach your target audience almost immediately. By organizing your keywords and setting up PPC landing pages, we bring you visits worth way more than the cost.
+                      The best digital marketing company in Delhi will manage
+                      your Pay per Click campaigns, helping you reach your
+                      target audience almost immediately. By organizing your
+                      keywords and setting up PPC landing pages, we bring you
+                      visits worth way more than the cost.
                     </Typography>
                   </Box>
                 </Box>
