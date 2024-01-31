@@ -191,6 +191,8 @@ const Ourexclusiveservice = () => {
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
+                  cursor: "pointer",
+                 
                 }}
                 onClick={() => {
                   navigate("/website-development/");
@@ -206,6 +208,10 @@ const Ourexclusiveservice = () => {
                     display: "flex",
                     flexDirection: "column",
                     alignItems: "center",
+                    transition: "transform 0.1s ease-in-out", // Add a transition for smooth effect
+                  "&:hover": {
+                    transform: "scale(1.1)", // Increase the scale on hover
+                  },
                   }}
                 >
                   <Box
@@ -326,6 +332,7 @@ const Ourexclusiveservice = () => {
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
+                  cursor: "pointer",
                 }}
               >
                 <Box
@@ -338,7 +345,14 @@ const Ourexclusiveservice = () => {
                     display: "flex",
                     flexDirection: "column",
                     alignItems: "center",
+                    transition: "transform 0.1s ease-in-out", // Add a transition for smooth effect
+                  "&:hover": {
+                    transform: "scale(1.1)", // Increase the scale on hover
+                  },
                   }}
+                  onClick={() => {
+                  navigate("/website-development/");
+                }}
                 >
                   <Box
                     component="img"
@@ -458,6 +472,10 @@ const Ourexclusiveservice = () => {
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
+                  cursor: "pointer",
+                }}
+                onClick={() => {
+                  navigate("/website-development/");
                 }}
               >
                 <Box
@@ -470,6 +488,10 @@ const Ourexclusiveservice = () => {
                     display: "flex",
                     flexDirection: "column",
                     alignItems: "center",
+                    transition: "transform 0.1s ease-in-out", // Add a transition for smooth effect
+                  "&:hover": {
+                    transform: "scale(1.1)", // Increase the scale on hover
+                  },
                   }}
                 >
                   <Box
@@ -601,6 +623,10 @@ const Ourexclusiveservice = () => {
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
+                  cursor: "pointer",
+                }}
+                onClick={() => {
+                  navigate("/website-development/");
                 }}
               >
                 <Box
@@ -613,6 +639,10 @@ const Ourexclusiveservice = () => {
                     display: "flex",
                     flexDirection: "column",
                     alignItems: "center",
+                    transition: "transform 0.1s ease-in-out", // Add a transition for smooth effect
+                  "&:hover": {
+                    transform: "scale(1.1)", // Increase the scale on hover
+                  },
                   }}
                 >
                   <Box
@@ -731,6 +761,10 @@ const Ourexclusiveservice = () => {
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
+                  cursor: "pointer",
+                }}
+                onClick={() => {
+                  navigate("/website-development/");
                 }}
               >
                 <Box
@@ -743,6 +777,10 @@ const Ourexclusiveservice = () => {
                     display: "flex",
                     flexDirection: "column",
                     alignItems: "center",
+                    transition: "transform 0.1s ease-in-out", // Add a transition for smooth effect
+                  "&:hover": {
+                    transform: "scale(1.1)", // Increase the scale on hover
+                  },
                   }}
                 >
                   <Box
@@ -860,7 +898,12 @@ const Ourexclusiveservice = () => {
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
+                  cursor: "pointer",
                 }}
+                onClick={() => {
+                  navigate("/pay-per-click/");
+                }}
+                
               >
                 <Box
                   sx={{
@@ -872,6 +915,10 @@ const Ourexclusiveservice = () => {
                     display: "flex",
                     flexDirection: "column",
                     alignItems: "center",
+                    transition: "transform 0.1s ease-in-out", // Add a transition for smooth effect
+                  "&:hover": {
+                    transform: "scale(1.1)", // Increase the scale on hover
+                  },
                   }}
                 >
                   <Box

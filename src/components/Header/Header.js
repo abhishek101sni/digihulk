@@ -448,7 +448,7 @@ function Header(props) {
                       onClose={handleCloseMenu}
                       MenuListProps={{ onMouseLeave: handleCloseMenu }}
                     >
-                      <Box sx={{ width: "210px", borderRadius: "0px" }}>
+                      <Box sx={{ width: "230px", borderRadius: "0px" }}>
                         {/* outdoor */}
                         <Box
                           sx={{
@@ -457,7 +457,7 @@ function Header(props) {
                           }}
                         >
                           <Link
-                            to={"/outdoor-advertising-agency/"}
+                            to={"/digital-marketing/"}
                             style={{ textDecoration: "none" }}
                           >
                             <Typography
@@ -476,7 +476,7 @@ function Header(props) {
                                 paddingBottom: "5px",
                               }}
                             >
-                              Outdoor Advertising
+                              Digital Marketing
                             </Typography>
                           </Link>
                         </Box>
@@ -484,7 +484,7 @@ function Header(props) {
                         {/* metro*/}
                         <Box sx={{ borderBottom: "1px solid #D3D3D3" }}>
                           <Link
-                            to={"/metro-advertising-agency/"}
+                            to={"/website-development/"}
                             style={{ textDecoration: "none" }}
                           >
                             <Typography
@@ -504,7 +504,7 @@ function Header(props) {
                                 paddingBottom: "7px",
                               }}
                             >
-                              Metro Advertising
+                              Web Design
                             </Typography>
                           </Link>
                         </Box>
@@ -512,7 +512,7 @@ function Header(props) {
                         {/* Airport branding */}
                         <Box sx={{ borderBottom: "1px solid #D3D3D3" }}>
                           <Link
-                            to={"/airport-branding-advertising-agency/"}
+                            to={"/mobile-app-develpment/"}
                             style={{ textDecoration: "none" }}
                           >
                             <Typography
@@ -532,22 +532,23 @@ function Header(props) {
                                 paddingBottom: "7px",
                               }}
                             >
-                              Airport Branding
+                              Mobile App Development
                             </Typography>
                           </Link>
                         </Box>
 
                         {/* MALL-BRANDING */}
-                        <Box sx={{ borderBottom: "1px solid #D3D3D3" }}>
+                        <Box
+                        //  sx={{ borderBottom: "1px solid #D3D3D3"}}
+                         >
                           <Link
-                            to={"/mall-branding-advertising-agency/"}
+                            to={"/content-marketing/"}
                             style={{ textDecoration: "none" }}
                           >
                             <Typography
                               sx={{
                                 marginLeft: "20px",
-                                paddingTop: "1px",
-                                paddingBottom: "1px",
+                       
                                 color: "#000",
                                 "&:hover": {
                                   color: "red",
@@ -560,62 +561,7 @@ function Header(props) {
                                 paddingBottom: "7px",
                               }}
                             >
-                              Mall Branding
-                            </Typography>
-                          </Link>
-                        </Box>
-
-                        {/* INFLIGHT-BRANDING */}
-                        <Box sx={{ borderBottom: "1px solid #D3D3D3" }}>
-                          <Link
-                            to={"/inflight-branding-advertising-agency/"}
-                            style={{ textDecoration: "none" }}
-                          >
-                            <Typography
-                              sx={{
-                                marginLeft: "20px",
-                                paddingTop: "1px",
-                                paddingBottom: "1px",
-                                color: "#000",
-                                "&:hover": {
-                                  color: "red",
-                                  cursor: "pointer",
-                                },
-                                fontSize: "15px",
-                                fontWeight: "600",
-                                fontFamily: "Poppins, sans-serif",
-                                paddingTop: "7px",
-                                paddingBottom: "7px",
-                              }}
-                            >
-                              Inflight Branding
-                            </Typography>
-                          </Link>
-                        </Box>
-
-                        {/* TRANSIT-MEDIA */}
-                        <Box sx={{}}>
-                          <Link
-                            to={"/transit-media-advertising-agency/"}
-                            style={{ textDecoration: "none" }}
-                          >
-                            <Typography
-                              sx={{
-                                marginLeft: "20px",
-                                paddingTop: "1px",
-                                paddingBottom: "1px",
-                                color: "#000",
-                                "&:hover": {
-                                  color: "red",
-                                  cursor: "pointer",
-                                },
-                                fontSize: "15px",
-                                fontWeight: "600",
-                                fontFamily: "Poppins, sans-serif",
-                                paddingTop: "7px",
-                              }}
-                            >
-                              Transit Media
+                              Content Marketing
                             </Typography>
                           </Link>
                         </Box>

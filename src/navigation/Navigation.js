@@ -17,6 +17,7 @@ import Contentmarketing from "../pages/OurServices/ParentServices/ContentMarketi
 import Digitalmarketing from "../pages/OurServices/ParentServices/DigitalMarketing/Digitalmarketing";
 import Mobileappdev from "../pages/OurServices/ParentServices/MobileAppDev/Mobileappdev";
 import Webdev from "../pages/OurServices/ParentServices/WebDev/Webdev"
+import Ppc from "../pages/OurServices/ChildServices/PPC/Ppc";
 
 // Footer
 // import Footer from "../components/Footer/Footer";
@@ -37,6 +38,9 @@ const Navigation = () => {
           <Route path="/digital-marketing/" element={<Digitalmarketing />} />
           <Route path="/mobile-app-develpment/" element={<Mobileappdev />} />
           <Route path="/website-development/" element={<Webdev/>} />
+
+          {/* CHILD SERVICES */}
+          <Route path="/pay-per-click/" element={<Ppc/>} />
         </Routes>
       </Scrolltotop>
       {/* <Footer /> */}
