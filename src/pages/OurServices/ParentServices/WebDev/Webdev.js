@@ -232,8 +232,8 @@ const Webdev = () => {
                 lg: "100px",
               },
               marginBottom: {
-                xs: "0px",
-                sm: "0px",
+                xs: "50px",
+                sm: "5px",
                 md: "50px",
                 lg: "50px",
               },
