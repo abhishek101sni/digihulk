@@ -10,7 +10,7 @@ import Whatwedo from "./HomeComponents/WhatWeDo/Whatwedo";
 
 const Home = () => {
   return (
-    <Box sx={{ xs: "", sm: "", md: "0px", lg: "0px" }}>
+  <Box sx={{ xs: "", sm: "", md: "0px", lg: "0px" }}>  
       <HomeVideo/>
       {/* <Homecards /> */}
       <Whatwedo/>

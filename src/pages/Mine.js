@@ -1,27 +1,9 @@
-<Box
-  component="img"
-  sx={{
-    width: {
-      xs: "60px",
-      sm: "60px",
-      md: "150px",
-      lg: "150px",
-    },
-    height: {
-      xs: "40px",
-      sm: "40px",
-      md: "80px",
-      lg: "80px",
-    },
-    marginLeft: {
-      xs: "100px",
-      sm: "100px",
-      md: "45px",
-      lg: "45px",
-    },
+// #
 
-    marginTop: { xs: "5px", sm: "5px", md: "7px", lg: "7px" },
-  }}
-  alt="DigiHulkMainHeaderLogo"
-  src={DigiHulkHeaderLogo}
-/>;
+// #2AAA8A
+
+{/* <Grid container>
+    <Grid item xs={12} sm={12} md={0.7} lg={0.7} sx={{backgroundColor:"red"}}></Grid>
+    <Grid item xs={12} sm={12} md={10.6} lg={10.6} sx={{backgroundColor:"green"}}></Grid>
+    <Grid item xs={12} sm={12} md={0.7} lg={0.7} sx={{backgroundColor:"blue"}}></Grid>
+</Grid> */}
