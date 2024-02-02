@@ -183,6 +183,7 @@ const Ourexclusiveservice = () => {
               lg={4}
               sx={{ backgroundColor: "grey" }}
             >
+              {/* Wordpress Website Development */}
               <Box
                 sx={{
                   height: "500px",
@@ -192,10 +193,9 @@ const Ourexclusiveservice = () => {
                   justifyContent: "center",
                   alignItems: "center",
                   cursor: "pointer",
-                 
                 }}
                 onClick={() => {
-                  navigate("/website-development/");
+                  navigate("/wordpress-website/");
                 }}
               >
                 <Box
@@ -209,9 +209,9 @@ const Ourexclusiveservice = () => {
                     flexDirection: "column",
                     alignItems: "center",
                     transition: "transform 0.1s ease-in-out", // Add a transition for smooth effect
-                  "&:hover": {
-                    transform: "scale(1.1)", // Increase the scale on hover
-                  },
+                    "&:hover": {
+                      transform: "scale(1.1)", // Increase the scale on hover
+                    },
                   }}
                 >
                   <Box
@@ -263,10 +263,10 @@ const Ourexclusiveservice = () => {
                         textAlign: "center",
                       }}
                     >
-                      Content
+                      Wordpress Website
                       {/* Social Media */}
                       <br />
-                      Marketing
+                      Development
                     </Typography>
                   </Box>
                   {/* Details */}
@@ -305,12 +305,10 @@ const Ourexclusiveservice = () => {
                         textAlign: "center",
                       }}
                     >
-                      Businesses today are transitioning from brick-and-mortar
-                      to online, reaching out to a broader customer base all
-                      around the world. Use effective social media marketing
-                      strategies from the best digital marketing company in
-                      Delhi to go online and establish your brand on social
-                      media platforms.
+                      Elevate your brand with Digihulks' SEO-optimized content.
+                      Engage your audience and boost your online presence with
+                      expertly crafted, keyword-rich writing. Choose Digihulks
+                      for impactful digital success.
                     </Typography>
                   </Box>
                 </Box>
@@ -324,6 +322,7 @@ const Ourexclusiveservice = () => {
               lg={4}
               sx={{ backgroundColor: "grey" }}
             >
+              {/* Mobile Development */}
               <Box
                 sx={{
                   height: "500px",
@@ -346,13 +345,13 @@ const Ourexclusiveservice = () => {
                     flexDirection: "column",
                     alignItems: "center",
                     transition: "transform 0.1s ease-in-out", // Add a transition for smooth effect
-                  "&:hover": {
-                    transform: "scale(1.1)", // Increase the scale on hover
-                  },
+                    "&:hover": {
+                      transform: "scale(1.1)", // Increase the scale on hover
+                    },
                   }}
                   onClick={() => {
-                  navigate("/website-development/");
-                }}
+                    navigate("/mobile-app-develpment/");
+                  }}
                 >
                   <Box
                     component="img"
@@ -446,11 +445,10 @@ const Ourexclusiveservice = () => {
                         textAlign: "center",
                       }}
                     >
-                      Facing trouble with an ongoing remarketing campaign? Let
-                      the best digital marketing company in Delhi handle your
-                      current database of customers. Executing remarketing
-                      campaigns is our favourite. Get an amazing ROI with our
-                      innovative remarketing strategies on all the social media
+                      Elevate your brand with Digihulks' top-notch mobile app
+                      development. Our experts turn ideas into high-performance,
+                      user-friendly apps. Choose innovation for business
+                      success.
                     </Typography>
                   </Box>
                 </Box>
@@ -464,6 +462,7 @@ const Ourexclusiveservice = () => {
               lg={4}
               sx={{ backgroundColor: "green" }}
             >
+              {/* Social Media management */}
               <Box
                 sx={{
                   height: "500px",
@@ -475,7 +474,7 @@ const Ourexclusiveservice = () => {
                   cursor: "pointer",
                 }}
                 onClick={() => {
-                  navigate("/website-development/");
+                  navigate("/social-media/");
                 }}
               >
                 <Box
@@ -489,9 +488,9 @@ const Ourexclusiveservice = () => {
                     flexDirection: "column",
                     alignItems: "center",
                     transition: "transform 0.1s ease-in-out", // Add a transition for smooth effect
-                  "&:hover": {
-                    transform: "scale(1.1)", // Increase the scale on hover
-                  },
+                    "&:hover": {
+                      transform: "scale(1.1)", // Increase the scale on hover
+                    },
                   }}
                 >
                   <Box
@@ -584,12 +583,12 @@ const Ourexclusiveservice = () => {
                         textAlign: "center",
                       }}
                     >
-                      Our experts will manage all your social media handles
-                      effectively, making use of all the current strategies
-                      needed to get you effective results. Proper social media
-                      promotion and successful communication with your target
-                      audience in real-time will generate enormous business
-                      opportunities for the brand.
+                      Elevate your brand with Digihulks' social media prowess.
+                      We drive engagement, optimize content, and boost your
+                      online influence. Trust us for expert social media
+                      management that ensures your brand stands out and
+                      flourishes in the digital landscape. Choose Digihulks for
+                      social media success.
                     </Typography>
                   </Box>
                 </Box>
@@ -615,6 +614,7 @@ const Ourexclusiveservice = () => {
               lg={4}
               sx={{ backgroundColor: "grey" }}
             >
+              {/* Google Analytics */}
               <Box
                 sx={{
                   height: "500px",
@@ -626,7 +626,7 @@ const Ourexclusiveservice = () => {
                   cursor: "pointer",
                 }}
                 onClick={() => {
-                  navigate("/website-development/");
+                  navigate("/google-analytics/");
                 }}
               >
                 <Box
@@ -640,9 +640,9 @@ const Ourexclusiveservice = () => {
                     flexDirection: "column",
                     alignItems: "center",
                     transition: "transform 0.1s ease-in-out", // Add a transition for smooth effect
-                  "&:hover": {
-                    transform: "scale(1.1)", // Increase the scale on hover
-                  },
+                    "&:hover": {
+                      transform: "scale(1.1)", // Increase the scale on hover
+                    },
                   }}
                 >
                   <Box
@@ -694,9 +694,9 @@ const Ourexclusiveservice = () => {
                         textAlign: "center",
                       }}
                     >
-                      Website
+                      Google
                       <br />
-                      Development
+                      Analytics
                     </Typography>
                   </Box>
                   {/* Details */}
@@ -735,11 +735,11 @@ const Ourexclusiveservice = () => {
                         textAlign: "center",
                       }}
                     >
-                      We welcome your business to the ‘World Wide Web’ World.
-                      The best digital marketing company in Delhi customizes
-                      interactive and easy to navigate websites that compliment
-                      your business to serve all your needs from e-commerce to a
-                      service-oriented platform.
+                      Elevate your digital strategy with Digihulks' Google
+                      Analytics proficiency. Gain strategic insights and enhance
+                      your online presence. Trust Digihulks for impactful
+                      data-driven decisions. Choose us for Google Analytics
+                      mastery.
                     </Typography>
                   </Box>
                 </Box>
@@ -753,6 +753,7 @@ const Ourexclusiveservice = () => {
               lg={4}
               sx={{ backgroundColor: "grey" }}
             >
+              {/* Serch Engine Optmisation */}
               <Box
                 sx={{
                   height: "500px",
@@ -764,7 +765,7 @@ const Ourexclusiveservice = () => {
                   cursor: "pointer",
                 }}
                 onClick={() => {
-                  navigate("/website-development/");
+                  navigate("/search-engine-optimisation/");
                 }}
               >
                 <Box
@@ -778,9 +779,9 @@ const Ourexclusiveservice = () => {
                     flexDirection: "column",
                     alignItems: "center",
                     transition: "transform 0.1s ease-in-out", // Add a transition for smooth effect
-                  "&:hover": {
-                    transform: "scale(1.1)", // Increase the scale on hover
-                  },
+                    "&:hover": {
+                      transform: "scale(1.1)", // Increase the scale on hover
+                    },
                   }}
                 >
                   <Box
@@ -873,10 +874,11 @@ const Ourexclusiveservice = () => {
                         textAlign: "center",
                       }}
                     >
-                      Build a strong brand image with optimized content to rank
-                      your business on the search engine to maximize
-                      conversions. We know the techniques to obtain a
-                      high-ranking placement in search engine results pages.
+                      Elevate your online presence with Digihulks! Our expert
+                      SEO services ensure top search rankings, increased
+                      traffic, and enhanced brand visibility. Trust us to
+                      optimize your website for success. Choose Digihulks, your
+                      partner in SEO excellence.
                     </Typography>
                   </Box>
                 </Box>
@@ -890,6 +892,7 @@ const Ourexclusiveservice = () => {
               lg={4}
               sx={{ backgroundColor: "green" }}
             >
+              {/* PPC */}
               <Box
                 sx={{
                   height: "500px",
@@ -903,7 +906,6 @@ const Ourexclusiveservice = () => {
                 onClick={() => {
                   navigate("/pay-per-click/");
                 }}
-                
               >
                 <Box
                   sx={{
@@ -916,9 +918,9 @@ const Ourexclusiveservice = () => {
                     flexDirection: "column",
                     alignItems: "center",
                     transition: "transform 0.1s ease-in-out", // Add a transition for smooth effect
-                  "&:hover": {
-                    transform: "scale(1.1)", // Increase the scale on hover
-                  },
+                    "&:hover": {
+                      transform: "scale(1.1)", // Increase the scale on hover
+                    },
                   }}
                 >
                   <Box
@@ -1009,11 +1011,11 @@ const Ourexclusiveservice = () => {
                         textAlign: "center",
                       }}
                     >
-                      The best digital marketing company in Delhi will manage
-                      your Pay per Click campaigns, helping you reach your
-                      target audience almost immediately. By organizing your
-                      keywords and setting up PPC landing pages, we bring you
-                      visits worth way more than the cost.
+                      Supercharge your online presence with Digihulks! Our PPC
+                      services drive targeted traffic for maximum ROI. Elevate
+                      your digital game with our expert campaigns. Choose
+                      Digihulks for impactful pay-per-click solutions and
+                      amplify your brand’s success!
                     </Typography>
                   </Box>
                 </Box>

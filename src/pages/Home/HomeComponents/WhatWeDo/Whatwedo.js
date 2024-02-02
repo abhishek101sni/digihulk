@@ -12,11 +12,9 @@ const Whatwedo = () => {
     <>
       <Grid
         container
-        sx={
-          {
-            backgroundColor: "#F0F0F0",
-          }
-        }
+        sx={{
+          backgroundColor: "#F0F0F0",
+        }}
       >
         <Grid
           item
@@ -24,11 +22,9 @@ const Whatwedo = () => {
           sm={12}
           md={0.7}
           lg={0.7}
-          sx={
-          {
+          sx={{
             backgroundColor: "#F0F0F0",
-          }
-        }
+          }}
         ></Grid>
         <Grid
           item
@@ -36,11 +32,9 @@ const Whatwedo = () => {
           sm={12}
           md={10.6}
           lg={10.6}
-          sx={
-          {
+          sx={{
             backgroundColor: "#F0F0F0",
-          }
-        }
+          }}
         >
           <Box
             sx={{
@@ -94,11 +88,9 @@ const Whatwedo = () => {
           sm={12}
           md={0.7}
           lg={0.7}
-          sx={
-          {
+          sx={{
             backgroundColor: "#F0F0F0",
-          }
-        }
+          }}
         ></Grid>
         <Grid
           item
@@ -106,11 +98,9 @@ const Whatwedo = () => {
           sm={12}
           md={10.6}
           lg={10.6}
-          sx={
-          {
+          sx={{
             backgroundColor: "#F0F0F0",
-          }
-        }
+          }}
         >
           <Grid container>
             <Grid
@@ -119,11 +109,9 @@ const Whatwedo = () => {
               sm={12}
               md={4}
               lg={4}
-              sx={
-          {
-            backgroundColor: "#F0F0F0",
-          }
-        }
+              sx={{
+                backgroundColor: "#F0F0F0",
+              }}
             >
               <Box
                 sx={{
@@ -260,21 +248,21 @@ const Whatwedo = () => {
                           //   textAlign: "center",
                           color: "rgba(122,122,122)",
                           textAlign: "justify",
-                        //   wordSpacing:{
-                        //     xs: "-2px",
-                        //     sm: "1px",
-                        //     md: "14px",
-                        //     lg: "14px",
-                        //   }
+                          //   wordSpacing:{
+                          //     xs: "-2px",
+                          //     sm: "1px",
+                          //     md: "14px",
+                          //     lg: "14px",
+                          //   }
                         }}
                       >
-                        We at Socio Labs help you fulfill your digital dream!
-                        Connect your brand to your targeted audiences
-                        multiplying your revenue and profits with our
-                        comprehensive digital marketing solutions. We transform
-                        your digital presence with design and strategy, making
-                        us the best digital marketing company in Delhi. Go
-                        digital with Socio Labs!
+                        Supercharge your online presence with Digihulks! Our
+                        expert digital marketing services focus on SEO, social
+                        media, and content strategies. Elevate your brand
+                        visibility, drive targeted traffic, and convert clicks
+                        into customers. Optimize your website's performance with
+                        our proven expertise. Choose Digihulks for dynamic
+                        online success.
                       </Typography>
                     </Box>
                   </Box>
@@ -287,11 +275,9 @@ const Whatwedo = () => {
               sm={12}
               md={4}
               lg={4}
-              sx={
-          {
-            backgroundColor: "#F0F0F0",
-          }
-        }
+              sx={{
+                backgroundColor: "#F0F0F0",
+              }}
             >
               <Box
                 sx={{
@@ -445,13 +431,12 @@ const Whatwedo = () => {
                           textAlign: "justify",
                         }}
                       >
-                        A business is as good as its website! An attractive and
-                        easy to navigate web page is all that is required to
-                        rope in potential customers. We create a seamless web
-                        experience for your customers with a well-structured
-                        website and compelling content. Put your business out
-                        there for the world to see with the one of the best
-                        digital marketing company in Delhi.
+                        Elevate your online presence with Digihulks! We
+                        specialize in crafting top-notch, responsive websites
+                        tailored to your unique needs. Achieve your business
+                        goals with our user-friendly and visually captivating
+                        website development services. Start your digital journey
+                        today!
                       </Typography>
                     </Box>
                   </Box>
@@ -486,11 +471,11 @@ const Whatwedo = () => {
                     lg: "none",
                   },
                   marginTop: {
-                        xs: "20px",
-                        sm: "20px",
-                        md: "0px",
-                        lg: "0px",
-                      },
+                    xs: "20px",
+                    sm: "20px",
+                    md: "0px",
+                    lg: "0px",
+                  },
                 }}
               >
                 <Box>
@@ -568,7 +553,7 @@ const Whatwedo = () => {
                         textAlign: "center",
                       }}
                     >
-                      Data Marketing
+                      Content Writing
                     </Typography>
                   </Box>
                   {/* DEtails */}
@@ -619,13 +604,10 @@ const Whatwedo = () => {
                           textAlign: "justify",
                         }}
                       >
-                        We combine data analysis and creativity to enhance your
-                        web visibility. Greater visibility translates to higher
-                        demand, increasing revenues, and better ROI. Enjoy
-                        higher revenues and profits for your business boosted by
-                        targeted capturing of customers. Experience the bliss of
-                        business growth through data-driven marketing from the
-                        best digital marketing company in Delhi
+                        Elevate your brand with Digihulks' SEO-optimized
+                        content. Engage your audience and boost your online
+                        presence with expertly crafted, keyword-rich writing.
+                        Choose Digihulks for impactful digital success.
                       </Typography>
                     </Box>
                   </Box>
@@ -640,11 +622,9 @@ const Whatwedo = () => {
           sm={12}
           md={0.7}
           lg={0.7}
-          sx={
-          {
+          sx={{
             backgroundColor: "#F0F0F0",
-          }
-        }
+          }}
         ></Grid>
       </Grid>
     </>

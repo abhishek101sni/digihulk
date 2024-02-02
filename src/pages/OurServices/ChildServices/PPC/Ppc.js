@@ -41,7 +41,7 @@ const Ppc = () => {
                 fontFamily: "Open Sans, sans-serif",
               }}
             >
-              PPC SERVICES
+              Pay Per Click
             </Typography>
           </Box>
         </Grid>
