@@ -12,9 +12,11 @@ import webportals from "../../../../assets/images/WebDevlopement/web-portals.png
 import websites from "../../../../assets/images/WebDevlopement/www.png";
 import ecommerce from "../../../../assets/images/WebDevlopement/ecommerce.png";
 import webapps from "../../../../assets/images/WebDevlopement/web-apps.png";
+import Footer from "../../../../components/Footer/Footer";
 
 const Wordpresswebsite = () => {
   return (
+    <>
     <Box
       sx={{
         marginTop: { xs: "51px", sm: "51px", md: "90px", lg: "90px" },
@@ -596,7 +598,7 @@ const Wordpresswebsite = () => {
                         textAlign: "center",
                       }}
                     >
-                      On-Page Excellence
+                      Blog<br/> Bliss
                       {/* Social Media */}
                       {/* <br /> */}
                       {/* Marketing */}
@@ -635,10 +637,8 @@ const Wordpresswebsite = () => {
                         color: "rgba(122,122,122)",
                       }}
                     >
-                      Unleash the power of optimized content, strategic keyword
-                      placement, and a user-friendly website structure. Our
-                      on-page SEO ensures every aspect aligns for search engine
-                      success, whether targeting local or global audiences.
+                      Unleash your thoughts with a captivating blog, where words
+                      dance in harmony with aesthetically pleasing layouts.
                     </Typography>
                   </Box>
                 </Box>
@@ -735,7 +735,7 @@ const Wordpresswebsite = () => {
                         textAlign: "center",
                       }}
                     >
-                      Off-Page Brilliance
+                      Business <br/>Elegance
                       {/* Social Media */}
                       {/* <br /> */}
                       {/* Marketing */}
@@ -774,11 +774,9 @@ const Wordpresswebsite = () => {
                         color: "rgba(122,122,122)",
                       }}
                     >
-                      Propel your website's authority with quality backlinks,
-                      social signals, and online mentions. Our off-page SEO
-                      strategies build a robust online presence beyond your
-                      website, connecting with both local and global
-                      communities.
+                      Elevate your brand's digital storefront with a WordPress
+                      business website, where functionality meets finesse,
+                      ensuring a seamless user journey.
                     </Typography>
                   </Box>
                 </Box>
@@ -875,7 +873,8 @@ const Wordpresswebsite = () => {
                         textAlign: "center",
                       }}
                     >
-                      Technical SEO
+                      E-Commerce
+                      <br/> Extravaganza
                       {/* Social Media */}
                       {/* <br /> */}
                       {/* Marketing */}
@@ -913,11 +912,9 @@ const Wordpresswebsite = () => {
                         color: "rgba(122,122,122)",
                       }}
                     >
-                      Dive into the intricacies of website architecture, mobile
-                      optimization, and site speed. Our technical SEO ensures
-                      your website not only meets but exceeds search engine
-                      standards, ensuring optimal performance for both local and
-                      global searches.
+                      Step into the marketplace with a custom WordPress
+                      e-commerce site, where product showcases and transactions
+                      become a symphony of user delight.
                     </Typography>
                   </Box>
                 </Box>
@@ -1019,7 +1016,7 @@ const Wordpresswebsite = () => {
                         textAlign: "center",
                       }}
                     >
-                      Local SEO Excellence
+                      Portfolio<br />  Paradise
                       {/* Social Media */}
                       {/* <br /> */}
                       {/* Marketing */}
@@ -1058,10 +1055,9 @@ const Wordpresswebsite = () => {
                         color: "rgba(122,122,122)",
                       }}
                     >
-                      Dominate your local market with our specialized Local SEO
-                      strategies. Enhance your visibility in local searches,
-                      manage online reviews, and establish a strong presence in
-                      Google My Business (GMB) for increased local engagement.
+                      Showcase your creative prowess with a personalized
+                      portfolio website, a canvas where your work takes center
+                      stage, leaving a lasting impression.
                     </Typography>
                   </Box>
                 </Box>
@@ -1079,6 +1075,8 @@ const Wordpresswebsite = () => {
         ></Grid>
       </Grid>
     </Box>
+    <Footer/> 
+    </>
   );
 };
 

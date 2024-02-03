@@ -127,10 +127,12 @@ const Googleanalytics = () => {
                   },
                 }}
               >
-                At DigiHulks, we craft digital success stories through the art
-                of Search Engine Optimization (SEO). Explore our comprehensive
-                SEO services that redefine your online presence and thrust your
-                website to the forefront of search engine rankings.
+                Welcome to the pulsating heart of digital insight – Google
+                Analytics, where data whispers secrets that shape success. Our
+                analytics hub opens doors to a realm where every click, every
+                interaction, tells a story. Buckle up for an analytical odyssey
+                that transcends mere data – it's a journey into understanding,
+                refining, and conquering the digital landscape.
               </Typography>
             </Box>
           </Box>
@@ -274,9 +276,9 @@ const Googleanalytics = () => {
                     textAlign: "center",
                   }}
                 >
-                  Search Engine
+                  Google
                   <br />
-                  Optimisation
+                  Analytics
                 </Typography>
               </Box>
 
@@ -350,10 +352,12 @@ const Googleanalytics = () => {
                     textAlign: "center",
                   }}
                 >
-                  At DigiHulks, we craft digital success stories through the art
-                  of Search Engine Optimization (SEO). Explore our comprehensive
-                  SEO services that redefine your online presence and thrust
-                  your website to the forefront of search engine rankings.
+                  Welcome to the pulsating heart of digital insight – Google
+                  Analytics, where data whispers secrets that shape success. Our
+                  analytics hub opens doors to a realm where every click, every
+                  interaction, tells a story. Buckle up for an analytical
+                  odyssey that transcends mere data – it's a journey into
+                  understanding, refining, and conquering the digital landscape.
                 </Typography>
               </Box>
             </Box>
@@ -431,7 +435,7 @@ const Googleanalytics = () => {
                   lineHeight: "32px",
                 }}
               >
-                Why SEO Matters?
+                What You Should Know
               </Typography>
             </Box>
             <Box
@@ -591,7 +595,8 @@ const Googleanalytics = () => {
                         textAlign: "center",
                       }}
                     >
-                      On-Page Excellence
+                      Audience
+                      <br /> Alchemy
                       {/* Social Media */}
                       {/* <br /> */}
                       {/* Marketing */}
@@ -630,10 +635,9 @@ const Googleanalytics = () => {
                         color: "rgba(122,122,122)",
                       }}
                     >
-                      Unleash the power of optimized content, strategic keyword
-                      placement, and a user-friendly website structure. Our
-                      on-page SEO ensures every aspect aligns for search engine
-                      success, whether targeting local or global audiences.
+                      Understand your visitors – their preferences, locations,
+                      and devices – unraveling the tapestry of your online
+                      audience.
                     </Typography>
                   </Box>
                 </Box>
@@ -730,7 +734,8 @@ const Googleanalytics = () => {
                         textAlign: "center",
                       }}
                     >
-                      Off-Page Brilliance
+                      Traffic
+                      <br /> Tales
                       {/* Social Media */}
                       {/* <br /> */}
                       {/* Marketing */}
@@ -769,11 +774,9 @@ const Googleanalytics = () => {
                         color: "rgba(122,122,122)",
                       }}
                     >
-                      Propel your website's authority with quality backlinks,
-                      social signals, and online mentions. Our off-page SEO
-                      strategies build a robust online presence beyond your
-                      website, connecting with both local and global
-                      communities.
+                      Decode the origin of your traffic, whether it's the
+                      organic allure of search engines, the paid precision of
+                      ads, or the referral rendezvous from other sites.
                     </Typography>
                   </Box>
                 </Box>
@@ -870,7 +873,8 @@ const Googleanalytics = () => {
                         textAlign: "center",
                       }}
                     >
-                      Technical SEO
+                      Content <br />
+                      Chronicles
                       {/* Social Media */}
                       {/* <br /> */}
                       {/* Marketing */}
@@ -908,11 +912,8 @@ const Googleanalytics = () => {
                         color: "rgba(122,122,122)",
                       }}
                     >
-                      Dive into the intricacies of website architecture, mobile
-                      optimization, and site speed. Our technical SEO ensures
-                      your website not only meets but exceeds search engine
-                      standards, ensuring optimal performance for both local and
-                      global searches.
+                      Delve into the performance of your content, deciphering
+                      what resonates, engages, and converts.
                     </Typography>
                   </Box>
                 </Box>
@@ -1014,7 +1015,8 @@ const Googleanalytics = () => {
                         textAlign: "center",
                       }}
                     >
-                      Local SEO Excellence
+                      Conversion <br />
+                      Conjuring
                       {/* Social Media */}
                       {/* <br /> */}
                       {/* Marketing */}
@@ -1053,10 +1055,9 @@ const Googleanalytics = () => {
                         color: "rgba(122,122,122)",
                       }}
                     >
-                      Dominate your local market with our specialized Local SEO
-                      strategies. Enhance your visibility in local searches,
-                      manage online reviews, and establish a strong presence in
-                      Google My Business (GMB) for increased local engagement.
+                      Illuminate the path to conversion, identifying the
+                      junctures where your audience transforms from visitors to
+                      valuable customers.
                     </Typography>
                   </Box>
                 </Box>

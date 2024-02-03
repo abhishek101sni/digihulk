@@ -127,10 +127,10 @@ const Socialmedia = () => {
                   },
                 }}
               >
-                At DigiHulks, we craft digital success stories through the art
-                of Search Engine Optimization (SEO). Explore our comprehensive
-                SEO services that redefine your online presence and thrust your
-                website to the forefront of search engine rankings.
+                In the vibrant realm of social media, where conversations spark,
+                trends ignite, and communities flourish, your brand deserves a
+                captivating symphony. Explore our curated suite of social media
+                services tailored to orchestrate your online success.
               </Typography>
             </Box>
           </Box>
@@ -274,9 +274,9 @@ const Socialmedia = () => {
                     textAlign: "center",
                   }}
                 >
-                  Search Engine
+                  Social
                   <br />
-                  Optimisation
+                  Media
                 </Typography>
               </Box>
 
@@ -350,10 +350,11 @@ const Socialmedia = () => {
                     textAlign: "center",
                   }}
                 >
-                  At DigiHulks, we craft digital success stories through the art
-                  of Search Engine Optimization (SEO). Explore our comprehensive
-                  SEO services that redefine your online presence and thrust
-                  your website to the forefront of search engine rankings.
+                  In the vibrant realm of social media, where conversations
+                  spark, trends ignite, and communities flourish, your brand
+                  deserves a captivating symphony. Explore our curated suite of
+                  social media services tailored to orchestrate your online
+                  success.
                 </Typography>
               </Box>
             </Box>
@@ -431,7 +432,7 @@ const Socialmedia = () => {
                   lineHeight: "32px",
                 }}
               >
-                Why SEO Matters?
+                What You Should Know:
               </Typography>
             </Box>
             <Box
@@ -591,7 +592,8 @@ const Socialmedia = () => {
                         textAlign: "center",
                       }}
                     >
-                      On-Page Excellence
+                      Visual Voyage
+                      <br/> on Instagram
                       {/* Social Media */}
                       {/* <br /> */}
                       {/* Marketing */}
@@ -630,10 +632,7 @@ const Socialmedia = () => {
                         color: "rgba(122,122,122)",
                       }}
                     >
-                      Unleash the power of optimized content, strategic keyword
-                      placement, and a user-friendly website structure. Our
-                      on-page SEO ensures every aspect aligns for search engine
-                      success, whether targeting local or global audiences.
+                      Immerse your audience in a visual spectacle with stunning imagery and captivating stories.
                     </Typography>
                   </Box>
                 </Box>
@@ -730,7 +729,7 @@ const Socialmedia = () => {
                         textAlign: "center",
                       }}
                     >
-                      Off-Page Brilliance
+                      Tweeting Trends <br/>on Twitter
                       {/* Social Media */}
                       {/* <br /> */}
                       {/* Marketing */}
@@ -769,11 +768,7 @@ const Socialmedia = () => {
                         color: "rgba(122,122,122)",
                       }}
                     >
-                      Propel your website's authority with quality backlinks,
-                      social signals, and online mentions. Our off-page SEO
-                      strategies build a robust online presence beyond your
-                      website, connecting with both local and global
-                      communities.
+                     Ride the wave of trends, engage in real-time conversations, and craft 280-character masterpieces.
                     </Typography>
                   </Box>
                 </Box>
@@ -870,7 +865,7 @@ const Socialmedia = () => {
                         textAlign: "center",
                       }}
                     >
-                      Technical SEO
+                      Professional Prowess<br/> on LinkedIn
                       {/* Social Media */}
                       {/* <br /> */}
                       {/* Marketing */}
@@ -908,11 +903,8 @@ const Socialmedia = () => {
                         color: "rgba(122,122,122)",
                       }}
                     >
-                      Dive into the intricacies of website architecture, mobile
-                      optimization, and site speed. Our technical SEO ensures
-                      your website not only meets but exceeds search engine
-                      standards, ensuring optimal performance for both local and
-                      global searches.
+                      Cultivate a professional persona, connect with industry leaders, and showcase your brand's expertise.
+
                     </Typography>
                   </Box>
                 </Box>
@@ -1014,7 +1006,8 @@ const Socialmedia = () => {
                         textAlign: "center",
                       }}
                     >
-                      Local SEO Excellence
+                      Facebook 
+                      <br/>Fiesta
                       {/* Social Media */}
                       {/* <br /> */}
                       {/* Marketing */}
@@ -1053,10 +1046,9 @@ const Socialmedia = () => {
                         color: "rgba(122,122,122)",
                       }}
                     >
-                      Dominate your local market with our specialized Local SEO
-                      strategies. Enhance your visibility in local searches,
-                      manage online reviews, and establish a strong presence in
-                      Google My Business (GMB) for increased local engagement.
+                      Create a lively atmosphere with rich multimedia content, events, and interactive posts to keep your community engaged.
+Pinterest Perfection: Craft boards that tell your brand story visually and resonate with your audience's aspirations.
+
                     </Typography>
                   </Box>
                 </Box>
