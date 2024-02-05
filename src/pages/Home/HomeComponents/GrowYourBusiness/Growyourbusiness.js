@@ -75,7 +75,7 @@ const Growyourbusiness = () => {
                     },
                     fontWeight: "600",
                     fontFamily: "Raleway, sans-serif",
-                    color: "#2AAA8A",
+                    color: "#21883b",
                   }}
                 >
                   DigiHulks!
@@ -130,6 +130,7 @@ const Growyourbusiness = () => {
                   fontFamily: "Raleway, sans-serif",
                   color:"#fff",
                   lineHeight: "60px",
+                  cursor:"pointer"
                     }}>ABOUT US</Typography>
                 </Box>
             </Box>
