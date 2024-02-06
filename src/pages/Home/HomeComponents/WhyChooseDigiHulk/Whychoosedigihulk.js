@@ -16,7 +16,7 @@ const Whychoosedigihulk = () => {
         container
         sx={
           {
-            // backgroundColor: "#F5F5F5",
+            backgroundColor: "#F0F0F0",
           }
         }
       >
@@ -26,7 +26,7 @@ const Whychoosedigihulk = () => {
           sm={12}
           md={0.7}
           lg={0.7}
-          // sx={{ backgroundColor: "purple" }}
+          sx={{ backgroundColor: "#F0F0F0" }}
         ></Grid>
         <Grid
           item
@@ -34,16 +34,16 @@ const Whychoosedigihulk = () => {
           sm={12}
           md={10.6}
           lg={10.6}
-          // sx={{ backgroundColor: "pink" }}
+          sx={{ backgroundColor: "#F0F0F0" }}
         >
           <Box
             sx={{
-              marginTop: { xs: "30px", sm: "30px", md: "30px", lg: "30px" },
+              marginTop: { xs: "30px", sm: "30px", md: "90px", lg: "90px" },
               marginBottom: {
                 xs: "20px",
                 sm: "20px",
-                md: "30px",
-                lg: "30px",
+                md: "40px",
+                lg: "40px",
               },
               //   border:"2px solid red"
             }}
@@ -60,7 +60,7 @@ const Whychoosedigihulk = () => {
                   fontWeight: "500",
                   //   fontFamily: "Poppins, sans-serif",
                   fontFamily: "Raleway, sans-serif",
-                  textAlign: "center",
+                  // textAlign: "center",
                   color: "#000",
                   lineHeight: {
                     xs: "33px",
@@ -70,7 +70,7 @@ const Whychoosedigihulk = () => {
                   },
                 }}
               >
-                Why Choose DigiHulk for SEO Services India
+                Why Business Choose DigiHulk
               </Typography>
             </Box>
           </Box>
@@ -81,7 +81,7 @@ const Whychoosedigihulk = () => {
           sm={12}
           md={0.7}
           lg={0.7}
-          // sx={{ backgroundColor: "purple" }}
+          sx={{ backgroundColor: "#F0F0F0" }}
         ></Grid>
       </Grid>
       {/* CONTENT 1 */}
@@ -92,7 +92,7 @@ const Whychoosedigihulk = () => {
           sm={12}
           md={0.7}
           lg={0.7}
-          // sx={{ backgroundColor: "red" }}
+          sx={{ backgroundColor: "#F0F0F0" }}
         ></Grid>
         <Grid
           item
@@ -109,195 +109,223 @@ const Whychoosedigihulk = () => {
               sm={12}
               md={6}
               lg={6}
-              // sx={{ backgroundColor: "#fff" }}
+              sx={{ backgroundColor: "#F0F0F0" }}
             >
-              {WhyChoosedata1.map((item) => {
-                return (
-                  <Box
-                    sx={{
-                      display: "flex",
-                      flexDirection: "row",
-                      marginTop: {
-                        xs: "14px",
-                        sm: "14px",
-                        md: "20px",
-                        lg: "20px",
-                      },
-                      marginBottom: {
-                        xs: "14px",
-                        sm: "14px",
-                        md: "20px",
-                        lg: "20px",
-                      },
-                      paddingLeft: {
-                        xs: "14px",
-                        sm: "14px",
-                        md: "20px",
-                        lg: "20px",
-                      },
-                      paddingRight: {
-                        xs: "14px",
-                        sm: "14px",
-                        md: "20px",
-                        lg: "20px",
-                      },
-                    }}
-                  >
-                    <Box sx={{
-                      display:"flex",
-                      justifyContent:"center",
-                      alignItems:"center"
-                    }}>
+              <Box
+                sx={{
+                  marginTop: { xs: "30px", sm: "30px", md: "30px", lg: "30px" },
+                  marginBottom: {
+                    xs: "20px",
+                    sm: "20px",
+                    md: "80px",
+                    lg: "80px",
+                  },
+                  //   border:"2px solid red"
+                }}
+              >
+                {" "}
+                {WhyChoosedata1.map((item) => {
+                  return (
+                    <Box
+                      sx={{
+                        display: "flex",
+                        flexDirection: "row",
+                        marginTop: {
+                          xs: "14px",
+                          sm: "14px",
+                          md: "20px",
+                          lg: "20px",
+                        },
+                        marginBottom: {
+                          xs: "14px",
+                          sm: "14px",
+                          md: "20px",
+                          lg: "20px",
+                        },
+                        paddingLeft: {
+                          xs: "14px",
+                          sm: "14px",
+                          md: "0px",
+                          lg: "0px",
+                        },
+                        paddingRight: {
+                          xs: "14px",
+                          sm: "14px",
+                          md: "20px",
+                          lg: "20px",
+                        },
+                      }}
+                    >
                       <Box
-                        component="img"
                         sx={{
-                          height: {
-                            xs: "20px",
-                            sm: "20px",
-                            md: "25px",
-                            lg: "25px",
-                          },
-                          width: {
-                            xs: "20px",
-                            sm: "20px",
-                            md: "25px",
-                            lg: "25px",
-                          },
-                        }}
-                        src={item.img}
-                      />
-                    </Box>
-                    <Box>
-                      <Typography
-                        sx={{
-                          fontSize: {
-                            xs: "14px",
-                            sm: "14px",
-                            md: "14px",
-                            lg: "14px",
-                          },
-                          fontWeight: "600",
-                          fontFamily: "Raleway, sans-serif",
-                          color: "rgba(122,122,122)",
-                          paddingLeft: {
-                            xs: "14px",
-                            sm: "14px",
-                            md: "10px",
-                            lg: "10px",
-                          },
+                          display: "flex",
+                          justifyContent: "center",
+                          alignItems: "center",
                         }}
                       >
-                        {item.title}
-                      </Typography>
+                        <Box
+                          component="img"
+                          sx={{
+                            height: {
+                              xs: "20px",
+                              sm: "20px",
+                              md: "25px",
+                              lg: "25px",
+                            },
+                            width: {
+                              xs: "20px",
+                              sm: "20px",
+                              md: "25px",
+                              lg: "25px",
+                            },
+                          }}
+                          src={item.img}
+                        />
+                      </Box>
+                      <Box>
+                        <Typography
+                          sx={{
+                            fontSize: {
+                              xs: "14px",
+                              sm: "14px",
+                              md: "14px",
+                              lg: "14px",
+                            },
+                            fontWeight: "600",
+                            fontFamily: "Raleway, sans-serif",
+                            color: "rgba(122,122,122)",
+                            paddingLeft: {
+                              xs: "14px",
+                              sm: "14px",
+                              md: "10px",
+                              lg: "10px",
+                            },
+                          }}
+                        >
+                          {item.title}
+                        </Typography>
+                      </Box>
                     </Box>
-                  </Box>
-                );
-              })}
+                  );
+                })}
+              </Box>
             </Grid>
-             <Grid
-              item
-              xs={12}
-              sm={12}
-              md={6}
-              lg={6}
-              // sx={{ backgroundColor: "#fff" }}
-            >
-              {WhyChoosedata2.map((item) => {
-                return (
-                  <Box
-                    sx={{
-                      display: "flex",
-                      flexDirection: "row",
-                      marginTop: {
-                        xs: "14px",
-                        sm: "14px",
-                        md: "20px",
-                        lg: "20px",
-                      },
-                      marginBottom: {
-                        xs: "14px",
-                        sm: "14px",
-                        md: "20px",
-                        lg: "20px",
-                      },
-                      paddingLeft: {
-                        xs: "14px",
-                        sm: "14px",
-                        md: "20px",
-                        lg: "20px",
-                      },
-                      paddingRight: {
-                        xs: "14px",
-                        sm: "14px",
-                        md: "20px",
-                        lg: "20px",
-                      },
-                    }}
-                  >
-                    <Box sx={{
-                      display:"flex",
-                      justifyContent:"center",
-                      alignItems:"center"
-                    }}>
-                      <Box
-                        component="img"
-                        sx={{
-                          height: {
-                            xs: "20px",
-                            sm: "20px",
-                            md: "25px",
-                            lg: "25px",
-                          },
-                          width: {
-                            xs: "20px",
-                            sm: "20px",
-                            md: "25px",
-                            lg: "25px",
-                          },
-                        }}
-                        src={item.img}
-                      />
-                    </Box>
-                    <Box>
-                      <Typography
-                        sx={{
-                          fontSize: {
-                            xs: "14px",
-                            sm: "14px",
-                            md: "14px",
-                            lg: "14px",
-                          },
-                          fontWeight: "600",
-                          fontFamily: "Raleway, sans-serif",
-                          color: "rgba(122,122,122)",
-                          paddingLeft: {
-                            xs: "14px",
-                            sm: "14px",
-                            md: "10px",
-                            lg: "10px",
-                          },
-                        }}
-                      >
-                        {item.title}
-                      </Typography>
-                    </Box>
-                  </Box>
-                );
-              })}
-            </Grid>
-          </Grid>
-          
-           
             <Grid
               item
               xs={12}
               sm={12}
               md={6}
               lg={6}
-              // sx={{ backgroundColor: "yellow" }}
-            ></Grid>
+              sx={{ backgroundColor: "#F0F0F0" }}
+            >
+              <Box
+                sx={{
+                  marginTop: { xs: "30px", sm: "30px", md: "30px", lg: "30px" },
+                  marginBottom: {
+                    xs: "20px",
+                    sm: "20px",
+                    md: "80px",
+                    lg: "80px",
+                  },
+                  //   border:"2px solid red"
+                }}
+              >
+                {WhyChoosedata2.map((item) => {
+                  return (
+                    <Box
+                      sx={{
+                        display: "flex",
+                        flexDirection: "row",
+                        marginTop: {
+                          xs: "14px",
+                          sm: "14px",
+                          md: "20px",
+                          lg: "20px",
+                        },
+                        marginBottom: {
+                          xs: "14px",
+                          sm: "14px",
+                          md: "20px",
+                          lg: "20px",
+                        },
+                        paddingLeft: {
+                          xs: "14px",
+                          sm: "14px",
+                          md: "20px",
+                          lg: "20px",
+                        },
+                        paddingRight: {
+                          xs: "14px",
+                          sm: "14px",
+                          md: "20px",
+                          lg: "20px",
+                        },
+                      }}
+                    >
+                      <Box
+                        sx={{
+                          display: "flex",
+                          justifyContent: "center",
+                          alignItems: "center",
+                        }}
+                      >
+                        <Box
+                          component="img"
+                          sx={{
+                            height: {
+                              xs: "20px",
+                              sm: "20px",
+                              md: "25px",
+                              lg: "25px",
+                            },
+                            width: {
+                              xs: "20px",
+                              sm: "20px",
+                              md: "25px",
+                              lg: "25px",
+                            },
+                          }}
+                          src={item.img}
+                        />
+                      </Box>
+                      <Box>
+                        <Typography
+                          sx={{
+                            fontSize: {
+                              xs: "14px",
+                              sm: "14px",
+                              md: "14px",
+                              lg: "14px",
+                            },
+                            fontWeight: "600",
+                            fontFamily: "Raleway, sans-serif",
+                            color: "rgba(122,122,122)",
+                            paddingLeft: {
+                              xs: "14px",
+                              sm: "14px",
+                              md: "10px",
+                              lg: "10px",
+                            },
+                          }}
+                        >
+                          {item.title}
+                        </Typography>
+                      </Box>
+                    </Box>
+                  );
+                })}
+              </Box>
+            </Grid>
+          </Grid>
 
-
+          <Grid
+            item
+            xs={12}
+            sm={12}
+            md={6}
+            lg={6}
+            // sx={{ backgroundColor: "yellow" }}
+          ></Grid>
         </Grid>
         <Grid
           item
@@ -305,11 +333,10 @@ const Whychoosedigihulk = () => {
           sm={12}
           md={0.7}
           lg={0.7}
-          // sx={{ backgroundColor: "blue" }}
+          sx={{ backgroundColor: "#F0F0F0" }}
         ></Grid>
       </Grid>
       {/* CONTENT 2 */}
-     
     </Box>
   );
 };

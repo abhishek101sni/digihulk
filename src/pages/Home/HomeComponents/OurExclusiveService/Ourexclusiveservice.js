@@ -18,6 +18,8 @@ import seo from "../../../../assets/images/OurServices/seo.png";
 import ppc from "../../../../assets/images/OurServices/ppc.png";
 import mobileDev from "../../../../assets/images/OurServices/Mobiledevelopment.png";
 import content from "../../../../assets/images/OurServices/content.png";
+import EmailMark from "../../../../assets/images/EmailMarketing/EmailMarketing.png"
+import customWeb from "../../../../assets/images/customwebsite/CustomWebsite.png"
 
 const Ourexclusiveservice = () => {
   const navigate = useNavigate();
@@ -179,14 +181,14 @@ const Ourexclusiveservice = () => {
               item
               xs={12}
               sm={12}
-              md={4}
-              lg={4}
+              md={3}
+              lg={3}
               sx={{ backgroundColor: "grey" }}
             >
               {/* Wordpress Website Development */}
               <Box
                 sx={{
-                  height: "500px",
+                  height: "300px",
                   width: "100%",
                   backgroundColor: "#fff",
                   display: "flex",
@@ -200,7 +202,7 @@ const Ourexclusiveservice = () => {
               >
                 <Box
                   sx={{
-                    height: "450px",
+                    height: "250px",
                     width: "300px",
                     backgroundColor: "#fff",
                     borderRadius: "20px",
@@ -270,7 +272,7 @@ const Ourexclusiveservice = () => {
                     </Typography>
                   </Box>
                   {/* Details */}
-                  <Box
+                  {/* <Box
                     sx={{
                       marginTop: {
                         xs: "21px",
@@ -310,7 +312,7 @@ const Ourexclusiveservice = () => {
                       expertly crafted, keyword-rich writing. Choose Digihulks
                       for impactful digital success.
                     </Typography>
-                  </Box>
+                  </Box> */}
                 </Box>
               </Box>
             </Grid>
@@ -318,14 +320,14 @@ const Ourexclusiveservice = () => {
               item
               xs={12}
               sm={12}
-              md={4}
-              lg={4}
+              md={3}
+              lg={3}
               sx={{ backgroundColor: "grey" }}
             >
-              {/* Mobile Development */}
+              {/* Ecommerce */}
               <Box
                 sx={{
-                  height: "500px",
+                  height: "300px",
                   width: "100%",
                   backgroundColor: "#fff",
                   display: "flex",
@@ -336,7 +338,7 @@ const Ourexclusiveservice = () => {
               >
                 <Box
                   sx={{
-                    height: "450px",
+                    height: "250px",
                     width: "300px",
                     backgroundColor: "#fff",
                     borderRadius: "20px",
@@ -350,7 +352,7 @@ const Ourexclusiveservice = () => {
                     },
                   }}
                   onClick={() => {
-                    navigate("/mobile-app-develpment/");
+                    navigate("/e-commerce/");
                   }}
                 >
                   <Box
@@ -402,15 +404,15 @@ const Ourexclusiveservice = () => {
                         textAlign: "center",
                       }}
                     >
-                      Mobile
-                      <br /> Development
+                      Ecommerce
+                      <br /> Websites
                       {/* Social Media */}
                       {/* <br /> */}
                       {/* Remarketing */}
                     </Typography>
                   </Box>
                   {/* Details */}
-                  <Box
+                  {/* <Box
                     sx={{
                       marginTop: {
                         xs: "21px",
@@ -450,7 +452,7 @@ const Ourexclusiveservice = () => {
                       user-friendly apps. Choose innovation for business
                       success.
                     </Typography>
-                  </Box>
+                  </Box> */}
                 </Box>
               </Box>
             </Grid>
@@ -458,14 +460,154 @@ const Ourexclusiveservice = () => {
               item
               xs={12}
               sm={12}
-              md={4}
-              lg={4}
+              md={3}
+              lg={3}
+              sx={{ backgroundColor: "green" }}
+            >
+              {/* Email MArketing */}
+              <Box
+                sx={{
+                  height: "300px",
+                  width: "100%",
+                  backgroundColor: "#fff",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  cursor: "pointer",
+                }}
+                onClick={() => {
+                  navigate("/email-marketing/");
+                }}
+              >
+                <Box
+                  sx={{
+                    height: "250px",
+                    width: "300px",
+                    backgroundColor: "#fff",
+                    borderRadius: "20px",
+                    boxShadow: 8,
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    transition: "transform 0.1s ease-in-out", // Add a transition for smooth effect
+                    "&:hover": {
+                      transform: "scale(1.1)", // Increase the scale on hover
+                    },
+                  }}
+                >
+                  <Box
+                    component="img"
+                    sx={{
+                      width: { xs: "60px", sm: "60px", md: "70px", lg: "70px" },
+                      height: {
+                        xs: "60px",
+                        sm: "60px",
+                        md: "70px",
+                        lg: "70px",
+                      },
+                      marginTop: {
+                        xs: "30px",
+                        sm: "30px",
+                        md: "30px",
+                        lg: "30px",
+                      },
+                    }}
+                    src={EmailMark}
+                  />
+                  {/* Heading */}
+                  <Box
+                    sx={{
+                      marginTop: {
+                        xs: "10px",
+                        sm: "10px",
+                        md: "20px",
+                        lg: "20px",
+                      },
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <Typography
+                      sx={{
+                        fontSize: {
+                          xs: "24px",
+                          sm: "24px",
+                          md: "25px",
+                          lg: "25px",
+                        },
+                        fontWeight: "600",
+                        //   fontFamily: "Poppins, sans-serif",
+                        fontFamily: "Raleway, sans-serif",
+                        textAlign: "center",
+                        color: "#000",
+                        textAlign: "center",
+                      }}
+                    >
+                      Email
+                      <br />
+                      Marketing
+                    </Typography>
+                  </Box>
+                  {/* Details */}
+                  {/* <Box
+                    sx={{
+                      marginTop: {
+                        xs: "21px",
+                        sm: "21px",
+                        md: "10px",
+                        lg: "10px",
+                      },
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <Typography
+                      sx={{
+                        fontSize: {
+                          xs: "14px",
+                          sm: "14px",
+                          md: "14px",
+                          lg: "14px",
+                        },
+                        width: {
+                          xs: "250px",
+                          sm: "250px",
+                          md: "250px",
+                          lg: "250px",
+                        },
+                        fontWeight: "500",
+                        //   fontFamily: "Poppins, sans-serif",
+                        fontFamily: "Raleway, sans-serif",
+                        textAlign: "center",
+                        color: "rgba(122,122,122)",
+                        textAlign: "center",
+                      }}
+                    >
+                      Elevate your brand with Digihulks' social media prowess.
+                      We drive engagement, optimize content, and boost your
+                      online influence. Trust us for expert social media
+                      management that ensures your brand stands out and
+                      flourishes in the digital landscape. Choose Digihulks for
+                      social media success.
+                    </Typography>
+                  </Box> */}
+                </Box>
+              </Box>
+            </Grid>
+            <Grid
+              item
+              xs={12}
+              sm={12}
+              md={3}
+              lg={3}
               sx={{ backgroundColor: "green" }}
             >
               {/* Social Media management */}
               <Box
                 sx={{
-                  height: "500px",
+                  height: "300px",
                   width: "100%",
                   backgroundColor: "#fff",
                   display: "flex",
@@ -479,7 +621,7 @@ const Ourexclusiveservice = () => {
               >
                 <Box
                   sx={{
-                    height: "450px",
+                    height: "250px",
                     width: "300px",
                     backgroundColor: "#fff",
                     borderRadius: "20px",
@@ -548,7 +690,7 @@ const Ourexclusiveservice = () => {
                     </Typography>
                   </Box>
                   {/* Details */}
-                  <Box
+                  {/* <Box
                     sx={{
                       marginTop: {
                         xs: "21px",
@@ -590,7 +732,7 @@ const Ourexclusiveservice = () => {
                       flourishes in the digital landscape. Choose Digihulks for
                       social media success.
                     </Typography>
-                  </Box>
+                  </Box> */}
                 </Box>
               </Box>
             </Grid>
@@ -606,18 +748,19 @@ const Ourexclusiveservice = () => {
         <Grid item xs={12} sm={12} md={0.7} lg={0.7}></Grid>
         <Grid item xs={12} sm={12} md={10.6} lg={10.6}>
           <Grid container>
+
             <Grid
               item
               xs={12}
               sm={12}
-              md={4}
-              lg={4}
+              md={3}
+              lg={3}
               sx={{ backgroundColor: "grey" }}
             >
               {/* Google Analytics */}
               <Box
                 sx={{
-                  height: "500px",
+                  height: "300px",
                   width: "100%",
                   backgroundColor: "#fff",
                   display: "flex",
@@ -631,7 +774,7 @@ const Ourexclusiveservice = () => {
               >
                 <Box
                   sx={{
-                    height: "450px",
+                    height: "250px",
                     width: "300px",
                     backgroundColor: "#fff",
                     borderRadius: "20px",
@@ -700,7 +843,7 @@ const Ourexclusiveservice = () => {
                     </Typography>
                   </Box>
                   {/* Details */}
-                  <Box
+                  {/* <Box
                     sx={{
                       marginTop: {
                         xs: "21px",
@@ -741,22 +884,23 @@ const Ourexclusiveservice = () => {
                       data-driven decisions. Choose us for Google Analytics
                       mastery.
                     </Typography>
-                  </Box>
+                  </Box> */}
                 </Box>
               </Box>
             </Grid>
+
             <Grid
               item
               xs={12}
               sm={12}
-              md={4}
-              lg={4}
+              md={3}
+              lg={3}
               sx={{ backgroundColor: "grey" }}
             >
               {/* Serch Engine Optmisation */}
               <Box
                 sx={{
-                  height: "500px",
+                  height: "300px",
                   width: "100%",
                   backgroundColor: "#fff",
                   display: "flex",
@@ -770,7 +914,7 @@ const Ourexclusiveservice = () => {
               >
                 <Box
                   sx={{
-                    height: "450px",
+                    height: "250px",
                     width: "300px",
                     backgroundColor: "#fff",
                     borderRadius: "20px",
@@ -839,7 +983,7 @@ const Ourexclusiveservice = () => {
                     </Typography>
                   </Box>
                   {/* Details */}
-                  <Box
+                  {/* <Box
                     sx={{
                       marginTop: {
                         xs: "21px",
@@ -880,22 +1024,23 @@ const Ourexclusiveservice = () => {
                       optimize your website for success. Choose Digihulks, your
                       partner in SEO excellence.
                     </Typography>
-                  </Box>
+                  </Box> */}
                 </Box>
               </Box>
             </Grid>
+                  
             <Grid
               item
               xs={12}
               sm={12}
-              md={4}
-              lg={4}
+              md={3}
+              lg={3}
               sx={{ backgroundColor: "green" }}
             >
               {/* PPC */}
               <Box
                 sx={{
-                  height: "500px",
+                  height: "300px",
                   width: "100%",
                   backgroundColor: "#fff",
                   display: "flex",
@@ -909,7 +1054,7 @@ const Ourexclusiveservice = () => {
               >
                 <Box
                   sx={{
-                    height: "450px",
+                    height: "250px",
                     width: "300px",
                     backgroundColor: "#fff",
                     borderRadius: "20px",
@@ -972,11 +1117,12 @@ const Ourexclusiveservice = () => {
                         textAlign: "center",
                       }}
                     >
-                      PPC Adds
+                      PPC
+                      <br/> Adds
                     </Typography>
                   </Box>
                   {/* Details */}
-                  <Box
+                  {/* <Box
                     sx={{
                       marginTop: {
                         xs: "21px",
@@ -1017,7 +1163,145 @@ const Ourexclusiveservice = () => {
                       Digihulks for impactful pay-per-click solutions and
                       amplify your brand’s success!
                     </Typography>
+                  </Box> */}
+                </Box>
+              </Box>
+            </Grid>
+            <Grid
+              item
+              xs={12}
+              sm={12}
+              md={3}
+              lg={3}
+              sx={{ backgroundColor: "green" }}
+            >
+              {/* Custome Website */}
+              <Box
+                sx={{
+                  height: "300px",
+                  width: "100%",
+                  backgroundColor: "#fff",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  cursor: "pointer",
+                }}
+                onClick={() => {
+                  navigate("/custom-website/");
+                }}
+              >
+                <Box
+                  sx={{
+                    height: "250px",
+                    width: "300px",
+                    backgroundColor: "#fff",
+                    borderRadius: "20px",
+                    boxShadow: 8,
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    transition: "transform 0.1s ease-in-out", // Add a transition for smooth effect
+                    "&:hover": {
+                      transform: "scale(1.1)", // Increase the scale on hover
+                    },
+                  }}
+                >
+                  <Box
+                    component="img"
+                    sx={{
+                      width: { xs: "60px", sm: "60px", md: "70px", lg: "70px" },
+                      height: {
+                        xs: "60px",
+                        sm: "60px",
+                        md: "70px",
+                        lg: "70px",
+                      },
+                      marginTop: {
+                        xs: "30px",
+                        sm: "30px",
+                        md: "30px",
+                        lg: "30px",
+                      },
+                    }}
+                    src={customWeb}
+                  />
+                  {/* Heading */}
+                  <Box
+                    sx={{
+                      marginTop: {
+                        xs: "10px",
+                        sm: "10px",
+                        md: "20px",
+                        lg: "20px",
+                      },
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <Typography
+                      sx={{
+                        fontSize: {
+                          xs: "24px",
+                          sm: "24px",
+                          md: "25px",
+                          lg: "25px",
+                        },
+                        fontWeight: "600",
+                        //   fontFamily: "Poppins, sans-serif",
+                        fontFamily: "Raleway, sans-serif",
+                        textAlign: "center",
+                        color: "#000",
+                        textAlign: "center",
+                      }}
+                    >
+                      Custom <br/>
+                      Website
+                    </Typography>
                   </Box>
+                  {/* Details */}
+                  {/* <Box
+                    sx={{
+                      marginTop: {
+                        xs: "21px",
+                        sm: "21px",
+                        md: "10px",
+                        lg: "10px",
+                      },
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <Typography
+                      sx={{
+                        fontSize: {
+                          xs: "14px",
+                          sm: "14px",
+                          md: "14px",
+                          lg: "14px",
+                        },
+                        width: {
+                          xs: "250px",
+                          sm: "250px",
+                          md: "250px",
+                          lg: "250px",
+                        },
+                        fontWeight: "500",
+                        //   fontFamily: "Poppins, sans-serif",
+                        fontFamily: "Raleway, sans-serif",
+                        textAlign: "center",
+                        color: "rgba(122,122,122)",
+                        textAlign: "center",
+                      }}
+                    >
+                      Supercharge your online presence with Digihulks! Our PPC
+                      services drive targeted traffic for maximum ROI. Elevate
+                      your digital game with our expert campaigns. Choose
+                      Digihulks for impactful pay-per-click solutions and
+                      amplify your brand’s success!
+                    </Typography>
+                  </Box> */}
                 </Box>
               </Box>
             </Grid>
