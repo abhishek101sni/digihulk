@@ -32,14 +32,14 @@ const Belowbanner = () => {
               paddingTop: {
                 xs: "20px",
                 sm: "20px",
-                md: "100px",
-                lg: "100px",
+                md: "50px",
+                lg: "50px",
               },
               paddingBottom: {
                 xs: "20px",
                 sm: "20px",
-                md: "100px",
-                lg: "100px",
+                md: "50px",
+                lg: "50px",
               },
               paddingLeft: {
                 xs: "20px",
@@ -78,7 +78,7 @@ const Belowbanner = () => {
                 },
               }}
             >
-              since 1989. For millions of users. We transform businesses with
+              Since 1989. For millions of users. We transform businesses with
               powerful and adaptable <br />
               digital solutions that satisfy the needs of today and unlock the
               opportunities of <br />

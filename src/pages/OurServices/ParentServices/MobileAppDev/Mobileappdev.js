@@ -13,6 +13,11 @@ import websites from "../../../../assets/images/WebDevlopement/www.png";
 import ecommerce from "../../../../assets/images/WebDevlopement/ecommerce.png";
 import webapps from "../../../../assets/images/WebDevlopement/web-apps.png";
 import Footer from "../../../../components/Footer/Footer";
+import mobileappDev from "../../../../assets/images/mobiledevelopement/mobileAppDevBanner.png"
+
+// PAges
+import Getbestmobileapp from "./MobileAppDevComponents/GetBestMobileApp/Getbestmobileapp";
+import Ourmobileapp from "./OurMobileApp/Ourmobileapp";
 
 const Mobileappdev = () => {
   return (
@@ -155,7 +160,7 @@ const Mobileappdev = () => {
           >
             <Box
               component="img"
-              src={webdevimg}
+              src={mobileappDev}
               sx={{
                 width: {
                   xs: "0px",
@@ -207,7 +212,7 @@ const Mobileappdev = () => {
           >
             <Box
               component="img"
-              src={webdevimg}
+              src={mobileappDev}
               sx={{
                 width: {
                   xs: "300px",
@@ -1104,6 +1109,13 @@ const Mobileappdev = () => {
             // sx={{ backgroundColor: "red" }}
           ></Grid>
         </Grid>
+
+        {/* Grid 3 */}
+        <Getbestmobileapp/>
+
+        {/* OurmobileApp */}
+        <Ourmobileapp/>
+
       </Box>
       <Footer />
     </>

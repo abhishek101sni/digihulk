@@ -13,6 +13,7 @@ import websites from "../../../../assets/images/WebDevlopement/www.png";
 import ecommerce from "../../../../assets/images/WebDevlopement/ecommerce.png";
 import webapps from "../../../../assets/images/WebDevlopement/web-apps.png";
 import Footer from "../../../../components/Footer/Footer";
+import DigiMark from "../../../../assets/images/DigitalMarketing/digitalMark2.png";
 
 const Digitalmarketing = () => {
   return (
@@ -43,17 +44,17 @@ const Digitalmarketing = () => {
           >
             <Box
               sx={{
-                marginTop: {
+                paddingTop: {
                   xs: "0px",
                   sm: "0px",
-                  md: "100px",
-                  lg: "100px",
+                  md: "80px",
+                  lg: "80px",
                 },
-                marginBottom: {
+                paddingBottom: {
                   xs: "0px",
                   sm: "0px",
-                  md: "50px",
-                  lg: "50px",
+                  md: "80px",
+                  lg: "80px",
                 },
               }}
               display={{ xs: "none", lg: "block" }}
@@ -71,8 +72,8 @@ const Digitalmarketing = () => {
                     marginTop: {
                       xs: "0px",
                       sm: "0px",
-                      md: "80px",
-                      lg: "80px",
+                      md: "0px",
+                      lg: "0px",
                     },
                     fontWeight: "600",
                     fontFamily: "Open Sans, sans-serif",
@@ -147,30 +148,47 @@ const Digitalmarketing = () => {
             lg={5.3}
             sx={{
               backgroundColor: "#253177",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
+              display:"flex",
+              justifyContent:"center",
+              alignItem:"center"
             }}
           >
             <Box
-              component="img"
-              src={webdevimg}
-              sx={{
-                width: {
+             sx={{
+                paddingTop: {
                   xs: "0px",
                   sm: "0px",
-                  md: "500px",
-                  lg: "500px",
+                  md: "80px",
+                  lg: "80px",
                 },
-                height: {
+                paddingBottom: {
                   xs: "0px",
                   sm: "0px",
-                  md: "500px",
-                  lg: "500px",
+                  md: "80px",
+                  lg: "80px",
                 },
               }}
-              display={{ xs: "none", lg: "block" }}
-            />
+            >
+              <Box
+                component="img"
+                src={DigiMark}
+                sx={{
+                  width: {
+                    xs: "0px",
+                    sm: "0px",
+                    md: "300px",
+                    lg: "300px",
+                  },
+                  height: {
+                    xs: "0px",
+                    sm: "0px",
+                    md: "300px",
+                    lg: "300px",
+                  },
+                }}
+                display={{ xs: "none", lg: "block" }}
+              />
+            </Box>
           </Grid>
           <Grid
             item
@@ -206,7 +224,7 @@ const Digitalmarketing = () => {
           >
             <Box
               component="img"
-              src={webdevimg}
+              src={DigiMark}
               sx={{
                 width: {
                   xs: "300px",
@@ -1044,7 +1062,7 @@ const Digitalmarketing = () => {
                         }}
                       >
                         Email
-                        <br/> Alchemy
+                        <br /> Alchemy
                         {/* Social Media */}
                         {/* <br /> */}
                         {/* Marketing */}

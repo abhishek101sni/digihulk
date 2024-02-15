@@ -12,6 +12,10 @@ import webportals from "../../../../assets/images/WebDevlopement/web-portals.png
 import websites from "../../../../assets/images/WebDevlopement/www.png";
 import ecommerce from "../../../../assets/images/WebDevlopement/ecommerce.png";
 import webapps from "../../../../assets/images/WebDevlopement/web-apps.png";
+import Ourseoworkprocess from "./SeoComponents/Ourseoworkprocess/Ourseoworkprocess";
+import Resultdriven from "./SeoComponents/ResultDriven/Resultdriven";
+import Boostyourbusiness from "./SeoComponents/BoostYourBusiness/Boostyourbusiness";
+import Bestseoagency from "./SeoComponents/BestSeoAgency/Bestseoagency";
 
 const Seo = () => {
   return (
@@ -1073,6 +1077,20 @@ const Seo = () => {
           // sx={{ backgroundColor: "red" }}
         ></Grid>
       </Grid>
+
+      {/* BoostYourbusineesss */}
+      <Boostyourbusiness/>
+
+      {/* OurWorkprocess */}
+      <Ourseoworkprocess />
+
+      {/* ResultDriven */}
+      {/* <Resultdriven /> */}
+
+      {/* Best Seo Agency */}
+      <Bestseoagency/>
+
+      
     </Box>
   );
 };

@@ -12,6 +12,7 @@ import Whatwedo from "./HomeComponents/WhatWeDo/Whatwedo";
 import Growyourbusiness from "./HomeComponents/GrowYourBusiness/Growyourbusiness";
 import Whychoosedigihulk from "./HomeComponents/WhyChooseDigiHulk/Whychoosedigihulk";
 import Belowbanner from "./HomeComponents/BelowBanner/Belowbanner";
+import Blogshomepage from "./HomeComponents/BlogsHomePage/Blogshomepage";
 
 const Home = () => {
   return (
@@ -28,6 +29,7 @@ const Home = () => {
       <Ourexclusiveservice />
       {/* Footer */}
       <Whychoosedigihulk />
+      <Blogshomepage/>
       <Footer />
     </Box>
   );

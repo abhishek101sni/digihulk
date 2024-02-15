@@ -9,7 +9,12 @@ import "./Growyourbusiness.css";
 // IMAGES
 import digitalMarketing2 from "../../../../assets/images/digitalMarketing2.png";
 
+// REACT_ROUTER_DOM
+import { useNavigate } from "react-router-dom";
+
 const Growyourbusiness = () => {
+
+  const navigate = useNavigate()
   return (
     <Box>
       {/* for desktop */}
@@ -20,7 +25,7 @@ const Growyourbusiness = () => {
           sm={12}
           md={0.7}
           lg={0.7}
-          //   sx={{ backgroundColor: "red" }}
+            sx={{ backgroundColor: "#F0F0F0" }}
         ></Grid>
         <Grid
           item
@@ -28,7 +33,7 @@ const Growyourbusiness = () => {
           sm={12}
           md={7}
           lg={7}
-          //   sx={{ backgroundColor: "grey" }}
+            sx={{ backgroundColor: "#F0F0F0" }}
           display={{ xs: "none", lg: "block" }}
         >
           <Box
@@ -36,8 +41,8 @@ const Growyourbusiness = () => {
               height: {
                 xs: "0px",
                 sm: "0px",
-                md: "500px",
-                lg: "500px",
+                md: "450px",
+                lg: "450px",
               },
               display: "flex",
               justifyContent: "center",
@@ -114,6 +119,9 @@ const Growyourbusiness = () => {
                   justifyContent: "center",
                   alignItems: "center",
                 }}
+                onClick={()=>{
+                  navigate("/about-us/")
+                }}
               >
                 <Typography
                   sx={{
@@ -142,7 +150,7 @@ const Growyourbusiness = () => {
           sm={12}
           md={3.6}
           lg={3.6}
-          //   sx={{ backgroundColor: "cyan" }}
+            sx={{ backgroundColor: "#F0F0F0" }}
           display={{ xs: "",lg:"block"}}
         >
           <Box
@@ -180,7 +188,7 @@ const Growyourbusiness = () => {
           sm={12}
           md={0.7}
           lg={0.7}
-          //   sx={{ backgroundColor: "red" }}
+            sx={{ backgroundColor: "#F0F0F0" }}
         ></Grid>
       </Grid>
 
